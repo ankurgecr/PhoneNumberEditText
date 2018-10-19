@@ -1,18 +1,28 @@
+apply plugin: 'com.novoda.bintray-release'
 apply plugin: 'com.android.library'
+
+publish {
+    def groupProjectID = 'android.helper'
+    def artifactProjectID = 'phonenumberedittext'
+    def publishVersionID = '1.0.0'
+
+    userOrg = 'ankurgecr'
+    repoName = 'phonenumberedittext'
+    groupId = groupProjectID
+    artifactId = artifactProjectID
+    publishVersion = publishVersionID
+    desc = 'An edit text for mobile number with country selection spinner'
+    website = 'https://github.com/ankurgecr/PhoneNumberEditText'
+}
 
 android {
     compileSdkVersion 28
-
-
 
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
-
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
     }
 
     buildTypes {
@@ -21,14 +31,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-
-    implementation 'com.android.support:appcompat-v7:28.0.0'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    def libSupportV = "28.0.0";
+    def libGsonV = "2.8.0";
+    implementation "com.android.support:appcompat-v7:$libSupportV"
+    implementation "com.android.support:design:$libSupportV"
+    implementation "com.google.code.gson:gson:$libGsonV"
 }
