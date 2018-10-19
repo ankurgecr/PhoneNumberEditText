@@ -1,5 +1,6 @@
 package info.ankurpandya.phonenumberedittext.demo.adapters;
 
+import android.helper.PhoneNumberEditText;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -86,7 +87,11 @@ public class PersonListAdapter extends RecyclerView.Adapter<PersonListAdapter.Vi
 
         public void bind(final PersonDetail personDetail) {
             txt_name.setText(personDetail.getName());
-            txt_contact.setText(personDetail.getPhoneNumber());
+            txt_contact.setText(
+                    PhoneNumberEditText.getPrintableMobileNumber(
+                            personDetail.getPhoneNumber()
+                    )
+            );
             if (handler != null) {
                 btn_edit.setOnClickListener(new View.OnClickListener() {
                     @Override

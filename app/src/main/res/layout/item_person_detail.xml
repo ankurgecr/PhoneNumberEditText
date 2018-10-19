@@ -24,6 +24,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:drawableLeft="@drawable/ic_vc_person"
+                android:drawablePadding="@dimen/gap_internal"
                 android:drawableStart="@drawable/ic_vc_person"
                 android:drawableTint="@color/colorPrimaryDark"
                 android:gravity="center_vertical"
@@ -36,6 +37,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:drawableLeft="@drawable/ic_vc_contact"
+                android:drawablePadding="@dimen/gap_internal"
                 android:drawableStart="@drawable/ic_vc_contact"
                 android:drawableTint="@color/colorPrimaryDark"
                 android:gravity="center_vertical"
@@ -48,8 +50,9 @@
             android:id="@+id/btn_edit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="@dimen/gap_external"
             android:background="@null"
-            android:padding="@dimen/gap_external"
+            android:padding="@dimen/gap_internal"
             android:src="@drawable/ic_vc_edit"
             android:tint="@color/colorAccent" />
 

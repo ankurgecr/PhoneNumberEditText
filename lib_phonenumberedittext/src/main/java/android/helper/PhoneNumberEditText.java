@@ -12,6 +12,7 @@ import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
 import android.support.design.widget.TextInputLayout;
 import android.support.v4.content.ContextCompat;
+import android.telephony.PhoneNumberUtils;
 import android.text.InputFilter;
 import android.text.InputType;
 import android.util.AttributeSet;
@@ -449,6 +450,40 @@ public class PhoneNumberEditText extends LinearLayout {
                         new InputFilter.LengthFilter(length)
                 }
         );
+    }
+
+    public static String formatContactNumber(String contactNumber) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            return PhoneNumberUtils.formatNumber(contactNumber, "US");
+        }
+        return contactNumber;
+    }
+
+    public static String getPrintableMobileNumber(String number) {
+        if (!isValid(number)) {
+            return "";
+        }
+        number = number.trim();
+        String code = "";
+        String mobile = "";
+        if (number.length() > 4) {
+            code = number.substring(0, 4);
+            mobile = number.substring(4, number.length());
+        } else {
+            mobile = number;
+        }
+
+        int index = 0;
+        for (int i = 0; i < code.length(); i++) {
+            if (code.charAt(i) != '0') {
+                index = i;
+                break;
+            }
+        }
+        code = code.substring(index, code.length());
+
+        //return "(+" + code + ")" + mobile;
+        return "+" + code + " " + formatContactNumber(mobile);
     }
 
     private static void setError(EditText editText) {
