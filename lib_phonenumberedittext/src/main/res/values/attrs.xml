@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <declare-styleable name="CountryPhoneEditText">
+    <declare-styleable name="PhoneNumberEditText">
         <attr name="phoneHint" format="string" />
         <attr name="codeHint" format="string" />
         <attr name="phoneSpinnerPrompt" format="string" />

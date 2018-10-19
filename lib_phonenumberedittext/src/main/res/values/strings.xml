@@ -2,5 +2,4 @@
     <string name="mobile_number">Number</string>
     <string name="country">Country</string>
     <string name="code">Code</string>
-    <string name="formatedCode">Code</string>
 </resources>

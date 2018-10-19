@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="defaultHintTextColor">#666666</color>
-    <color name="defaultTextColor">#333333</color>
+    <color name="pnet_defaultHintTextColor">#666666</color>
+    <color name="pnet_defaultTextColor">#333333</color>
 </resources>

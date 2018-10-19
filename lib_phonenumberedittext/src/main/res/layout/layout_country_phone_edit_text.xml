@@ -26,7 +26,7 @@
                 android:paddingRight="4dp"
                 android:paddingTop="4dp"
                 android:text="@string/code"
-                android:textColor="@color/defaultHintTextColor"
+                android:textColor="@color/pnet_defaultHintTextColor"
                 android:textSize="12sp" />
 
             <Spinner
@@ -56,7 +56,7 @@
                 android:inputType="phone"
                 android:maxLength="15"
                 android:padding="12dp"
-                android:textColor="@color/defaultTextColor"
+                android:textColor="@color/pnet_defaultTextColor"
                 tools:text="123456789" />
 
         </android.support.design.widget.TextInputLayout>

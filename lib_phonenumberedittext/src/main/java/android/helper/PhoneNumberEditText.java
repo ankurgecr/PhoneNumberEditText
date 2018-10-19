@@ -1,8 +1,11 @@
 package android.helper;
 
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
+import android.helper.adapters.CountryListForPhoneCodeAdapter;
+import android.helper.entity.Country;
 import android.os.Build;
 import android.os.Handler;
 import android.support.annotation.Nullable;
@@ -36,10 +39,10 @@ import java.util.List;
 /**
  * Created by Ankur on 08-10-2017.
  */
-//android.helper.CountryPhoneEditText
-public class CountryPhoneEditText extends LinearLayout {
+//android.helper.PhoneNumberEditText
+public class PhoneNumberEditText extends LinearLayout {
 
-    public static final String TAG = "CountryPhoneEditText";
+    public static final String TAG = "PhoneNumberEditText";
 
     private static String defaultCountry = "US";
     LayoutInflater mInflater;
@@ -54,24 +57,25 @@ public class CountryPhoneEditText extends LinearLayout {
     View touch_intersepter_layout;
     View container;
 
-    public CountryPhoneEditText(Context context) {
+    public PhoneNumberEditText(Context context) {
         super(context);
     }
 
-    public CountryPhoneEditText(Context context, @Nullable AttributeSet attrs) {
+    public PhoneNumberEditText(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         init(attrs);
         parseAttributes(attrs);
     }
 
-    public CountryPhoneEditText(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
+    public PhoneNumberEditText(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init(attrs);
         parseAttributes(attrs);
     }
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
-    public CountryPhoneEditText(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+    public PhoneNumberEditText(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
         init(attrs);
         parseAttributes(attrs);
@@ -83,7 +87,7 @@ public class CountryPhoneEditText extends LinearLayout {
 
     public static void setDefaultCountry(String defaultCountry) {
         if (defaultCountry != null && defaultCountry.length() > 0) {
-            CountryPhoneEditText.defaultCountry = defaultCountry;
+            PhoneNumberEditText.defaultCountry = defaultCountry;
         }
     }
 
@@ -273,15 +277,21 @@ public class CountryPhoneEditText extends LinearLayout {
     }
 
     public void addCountries(List<Country> countryList) {
-        adapter.addAll(countryList);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+            adapter.addAll(countryList);
+        } else {
+            for (Country country : countryList) {
+                adapter.add(country);
+            }
+        }
         adapter.notifyDataSetChanged();
     }
 
     private void parseAttributes(AttributeSet attrs) {
-        TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.CountryPhoneEditText, 0, 0);
-        //TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.CountryPhoneEditText);
+        TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.PhoneNumberEditText, 0, 0);
+        //TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.PhoneNumberEditText);
         try {
-            CharSequence hintText = a.getString(R.styleable.CountryPhoneEditText_phoneHint);
+            CharSequence hintText = a.getString(R.styleable.PhoneNumberEditText_phoneHint);
             if (hintText != null) {
                 if (input_country_phone_container != null) {
                     input_country_phone_container.setHint(hintText);
@@ -290,24 +300,24 @@ public class CountryPhoneEditText extends LinearLayout {
                 }
             }
 
-            String spinnerPrompt = a.getString(R.styleable.CountryPhoneEditText_phoneSpinnerPrompt);
+            String spinnerPrompt = a.getString(R.styleable.PhoneNumberEditText_phoneSpinnerPrompt);
             if (spinnerPrompt != null) {
                 spinner_countries.setPrompt(spinnerPrompt);
             }
 
-            String codeHintText = a.getString(R.styleable.CountryPhoneEditText_codeHint);
+            String codeHintText = a.getString(R.styleable.PhoneNumberEditText_codeHint);
             if (codeHintText != null) {
                 txt_code_hint.setText(codeHintText);
             }
 
-            int textColor = a.getColor(R.styleable.CountryPhoneEditText_textColor, ContextCompat.getColor(getContext(), R.color.defaultTextColor));
+            int textColor = a.getColor(R.styleable.PhoneNumberEditText_textColor, ContextCompat.getColor(getContext(), R.color.pnet_defaultTextColor));
 
             input_phone.setTextColor(textColor);
             adapter.setDefaultTextColor(textColor);
 
             adapter.notifyDataSetChanged();
 
-            int textColorHint = a.getColor(R.styleable.CountryPhoneEditText_textColorHint, ContextCompat.getColor(getContext(), R.color.defaultHintTextColor));
+            int textColorHint = a.getColor(R.styleable.PhoneNumberEditText_textColorHint, ContextCompat.getColor(getContext(), R.color.pnet_defaultHintTextColor));
 
             input_phone.setHintTextColor(textColorHint);
             txt_code_hint.setTextColor(textColorHint);
@@ -318,7 +328,7 @@ public class CountryPhoneEditText extends LinearLayout {
             adapter.notifyDataSetChanged();
             //input_country_phone_container.setHin(textColorHint);
 
-            int backgroundResId = a.getResourceId(R.styleable.CountryPhoneEditText_android_background, R.drawable.cpet_bg_edit_text);
+            int backgroundResId = a.getResourceId(R.styleable.PhoneNumberEditText_android_background, R.drawable.cpet_bg_edit_text);
             container.setBackgroundResource(backgroundResId);
 
         } catch (Exception e) {

@@ -1,4 +1,4 @@
-package android.helper;
+package android.helper.entity;
 
 import java.util.ArrayList;
 import java.util.List;

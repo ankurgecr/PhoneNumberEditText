@@ -1,7 +1,9 @@
-package android.helper;
+package android.helper.adapters;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
+import android.helper.R;
+import android.helper.entity.Country;
 import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,7 +19,6 @@ import java.util.List;
 /**
  * Created by Ankur on 26-09-2017.
  */
-
 public class CountryListForPhoneCodeAdapter extends ArrayAdapter<Country> {
 
     List<Country> countries;
@@ -28,10 +29,10 @@ public class CountryListForPhoneCodeAdapter extends ArrayAdapter<Country> {
         super(context, resourceId, objects);
         countries = objects;
         if (defaultHintColor == -99) {
-            defaultHintColor = ContextCompat.getColor(context, R.color.defaultHintTextColor);
+            defaultHintColor = ContextCompat.getColor(context, R.color.pnet_defaultHintTextColor);
         }
         if (defaultTextColor == -99) {
-            defaultTextColor = ContextCompat.getColor(context, R.color.defaultTextColor);
+            defaultTextColor = ContextCompat.getColor(context, R.color.pnet_defaultTextColor);
         }
     }
 
@@ -68,7 +69,6 @@ public class CountryListForPhoneCodeAdapter extends ArrayAdapter<Country> {
 
         txt_country_code.setTextColor(defaultTextColor);
         txt_country_code.setHintTextColor(defaultTextColor);
-
         txt_country_code.setText("+" + countries.get(position).Phonecode);
         String iso = countries.get(position).ISO;
         try {
