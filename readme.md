@@ -5,6 +5,10 @@ A simple material EditText combined with Country code select Spinner.
 
 Preview
 ---------------
+<p>
+    <img src="https://i.imgur.com/q2kBgR3.gif" width="45%" />
+    <img src="https://i.imgur.com/w24JbR5.gif" width="45%" />
+</p>
 ![PhoneNumberEditText Demo 1](https://i.imgur.com/q2kBgR3.gif) ![PhoneNumberEditText Demo 2](https://i.imgur.com/w24JbR5.gif)
 
 Getting started
