@@ -18,7 +18,7 @@ add the dependency to your project's build.gradle file:
 ```
 dependencies {
     //other dependencies
-    implementation "android.helper:phonenumberedittext:1.0.0"
+    implementation "android.helper:phonenumberedittext:1.0.1"
 }
 ```
 Then to sync up your project and you are all set to use PhoneNumberEditText.
