@@ -1,11 +1,14 @@
 PhoneNumberEditText
 ===========
 
+A simple material EditText combined with Country code select Spinner.
+
+Preview
+---------------
+![PhoneNumberEditText Demo 1](https://i.imgur.com/q2kBgR3.gif) ![PhoneNumberEditText Demo 2](https://i.imgur.com/w24JbR5.gif)
+
 Getting started
 ---------------
-
-![PhoneNumberEditText Demo 1](https://i.imgur.com/q2kBgR3.gifv)
-![PhoneNumberEditText Demo 2](https://i.imgur.com/w24JbR5.gif)
 
 To get started with PhoneNumberEditText, you'll need to get
 add the dependency to your project's build.gradle file:
@@ -58,6 +61,14 @@ String formattedNumber = PhoneNumberEditText.getPrintableMobileNumber(
 ); //returns - "+1 (987) 654321"
 ```
 
+Questions?
+--------
+Feel free to register github issues with a 'question' label
+
 Demo
 --------
 Check the demo app for more details.
+
+License
+--------
+Licensed under the MIT license. See [LICENSE](LICENSE.md).
