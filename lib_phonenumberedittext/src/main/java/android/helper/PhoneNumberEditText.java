@@ -158,7 +158,6 @@ public class PhoneNumberEditText extends LinearLayout {
     }
 
     void loadCountries() {
-
         try {
             String countryResponseString = loadJSONFromAsset(getContext());
             JSONObject responseJson = new JSONObject(countryResponseString);
@@ -183,15 +182,6 @@ public class PhoneNumberEditText extends LinearLayout {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        /*
-        new Handler().post(new Runnable() {
-            @Override
-            public void run() {
-
-            }
-        });
-        */
     }
 
     private static String loadJSONFromAsset(Context context) {
@@ -340,8 +330,26 @@ public class PhoneNumberEditText extends LinearLayout {
     }
 
     private void setUpperHintColor(TextInputLayout input_country_phone_container, int color) {
+        String styleFieldFocusedTextColor;
+        String styleFieldHintTextColor;
+
+        //EDIT 2018-08-01:
+        //If you are using design library v28.0.0 and later,
+        // fields had changed from mDefaultTextColorto defaultHintTextColor
+        // and from mFocusedTextColor to focusedTextColor.
+        //if (designLibraryVersion >= v28.0.0) {
+        //    styleFieldFocusedTextColor = "focusedTextColor";
+        //    styleFieldHintTextColor = "defaultHintTextColor";
+        //} else {
+        //    styleFieldFocusedTextColor = "mFocusedTextColor";
+        //    styleFieldHintTextColor = "mDefaultTextColor";
+        //}
+
+        styleFieldFocusedTextColor = "focusedTextColor";
+        styleFieldHintTextColor = "defaultHintTextColor";
+
         try {
-            Field field = input_country_phone_container.getClass().getDeclaredField("mFocusedTextColor");
+            Field field = input_country_phone_container.getClass().getDeclaredField(styleFieldFocusedTextColor);
             field.setAccessible(true);
             int[][] states = new int[][]{
                     new int[]{}
@@ -352,14 +360,13 @@ public class PhoneNumberEditText extends LinearLayout {
             ColorStateList myList = new ColorStateList(states, colors);
             field.set(input_country_phone_container, myList);
 
-            Field fDefaultTextColor = TextInputLayout.class.getDeclaredField("mDefaultTextColor");
+            Field fDefaultTextColor = TextInputLayout.class.getDeclaredField(styleFieldHintTextColor);
             fDefaultTextColor.setAccessible(true);
             fDefaultTextColor.set(input_country_phone_container, myList);
 
             Method method = input_country_phone_container.getClass().getDeclaredMethod("updateLabelState", boolean.class);
             method.setAccessible(true);
             method.invoke(input_country_phone_container, true);
-
         } catch (Exception e) {
             e.printStackTrace();
         }

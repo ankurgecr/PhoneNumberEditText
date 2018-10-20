@@ -40,14 +40,14 @@ for more options
     android:background="@drawable/edit_bg"
     app:phoneHint="EditText hint"
     app:codeHint="Spinner hint"
-    app:phoneSpinnerPrompt="Spinner prompt Text"
+    app:phoneSpinnerPrompt="Spinner prompt text"
     app:textColor="@android:color/black"
     app:textColorHint="@android:color/red"/>
 ```
 Get and Set contact numbers
 --------
 
-```java
+```
 import android.helper.PhoneNumberEditText;
 
 PhoneNumberEditText edt_phone;
@@ -65,9 +65,9 @@ String contact = edt_phone.getPhoneNumber(); //Returns 00019876543210
 > and rest of the characters represents the phone number.
 
 for formatting contact number to show users in UI:
-```java
+```
 String formattedNumber = PhoneNumberEditText.getPrintableMobileNumber(
-"00019876543210"
+    "00019876543210"
 ); //returns - "+1 (987) 654321"
 ```
 

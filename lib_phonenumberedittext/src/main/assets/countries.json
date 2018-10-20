@@ -83,7 +83,7 @@
         "Nicename": "Antarctica",
         "ISO3": null,
         "Numcode": null,
-        "Phonecode": 0
+        "Phonecode": 672
       },
       {
         "Id": 9,
@@ -272,7 +272,7 @@
         "Nicename": "Bouvet Island",
         "ISO3": null,
         "Numcode": null,
-        "Phonecode": 0
+        "Phonecode": 55
       },
       {
         "Id": 30,
@@ -425,7 +425,7 @@
         "Nicename": "Cocos (Keeling) Islands",
         "ISO3": null,
         "Numcode": null,
-        "Phonecode": 672
+        "Phonecode": 891
       },
       {
         "Id": 47,
@@ -848,7 +848,7 @@
         "Nicename": "Heard Island and Mcdonald Islands",
         "ISO3": null,
         "Numcode": null,
-        "Phonecode": 0
+        "Phonecode": 672
       },
       {
         "Id": 94,
@@ -1541,7 +1541,7 @@
         "Nicename": "Pitcairn",
         "ISO3": "PCN",
         "Numcode": 612,
-        "Phonecode": 0
+        "Phonecode": 64
       },
       {
         "Id": 171,
@@ -1793,7 +1793,7 @@
         "Nicename": "South Georgia and the South Sandwich Islands",
         "ISO3": null,
         "Numcode": null,
-        "Phonecode": 0
+        "Phonecode": 995
       },
       {
         "Id": 199,

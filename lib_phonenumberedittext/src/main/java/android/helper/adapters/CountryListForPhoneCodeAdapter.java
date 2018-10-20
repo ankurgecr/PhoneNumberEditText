@@ -84,7 +84,7 @@ public class CountryListForPhoneCodeAdapter extends ArrayAdapter<Country> {
             InputStream ims = context.getAssets().open("flags/" + code.toLowerCase() + ".png");
             return Drawable.createFromStream(ims, null);
         } catch (IOException ex) {
-            return null;
+            return ContextCompat.getDrawable(context, R.drawable.pnet_default);
         }
     }
 
