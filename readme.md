@@ -31,18 +31,22 @@ To add UI componenet in your Layout XML file
     android:layout_height="wrap_content"/>
 ```
 
-for more options
+Customization
+---------------
+![Customized PhoneNumberEditText](https://i.imgur.com/qxN0teu.png)
+
+for more customization use these attributes:
 ```xml
 <android.helper.PhoneNumberEditText
     android:id="@+id/edt_phone"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/edit_bg"
-    app:phoneHint="EditText hint"
+    android:background="#333333"
     app:codeHint="Spinner hint"
+    app:phoneHint="EditText hint"
     app:phoneSpinnerPrompt="Spinner prompt text"
-    app:textColor="@android:color/black"
-    app:textColorHint="@android:color/red"/>
+    app:textColor="#ffffff"
+    app:textColorHint="#aaaaaa" />
 ```
 Get and Set contact numbers
 --------
