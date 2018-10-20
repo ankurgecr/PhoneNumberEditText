@@ -51,8 +51,8 @@ public class PersonListAdapter extends RecyclerView.Adapter<PersonListAdapter.Vi
         if (personDetailList.contains(personDetail)) {
             removePerson(personDetail);
         }
-        int position = personDetailList.size();
-        personDetailList.add(personDetail);
+        int position = 0; //personDetailList.size();
+        personDetailList.add(position, personDetail);
         notifyItemInserted(position);
     }
 

@@ -35,7 +35,8 @@ dependencies {
     implementation("com.android.support:appcompat-v7:$libSupportV")
     implementation("com.android.support:recyclerview-v7:$libSupportV")
     implementation("com.android.support:cardview-v7:$libSupportV")
+    implementation("com.android.support:support-v4:$libSupportV")
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
-    implementation project(path: ':lib_phonenumberedittext')
-    implementation 'com.android.support:support-v4:28.0.0'
+    //implementation project(path: ':lib_phonenumberedittext')
+    implementation "android.helper:phonenumberedittext:1.0.0"
 }

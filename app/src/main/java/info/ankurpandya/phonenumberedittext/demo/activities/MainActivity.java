@@ -1,10 +1,12 @@
 package info.ankurpandya.phonenumberedittext.demo.activities;
 
+import android.app.Activity;
 import android.helper.PhoneNumberEditText;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -63,6 +65,14 @@ public class MainActivity extends AppCompatActivity
                 edt_name.getText().toString(),
                 edt_phone.getPhoneNumber()
         );
+        clearDetails();
+        hideKeyboard(this);
+    }
+
+    private void clearDetails() {
+        edt_name.setText("");
+        edt_phone.setPhoneNumber("");
+        edt_name.requestFocus();
     }
 
     private void showEditPersonDetailDialog(PersonDetail personDetail) {
@@ -73,5 +83,15 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onPersonDetailsUpdated(PersonDetail detail) {
         adapter.updatePerson(detail);
+        hideKeyboard(this);
+    }
+
+    private static void hideKeyboard(Activity activity) {
+        InputMethodManager imm = (InputMethodManager) activity.getSystemService(Activity.INPUT_METHOD_SERVICE);
+        View view = activity.getCurrentFocus();
+        if (view == null) {
+            view = new View(activity);
+        }
+        imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
 }
