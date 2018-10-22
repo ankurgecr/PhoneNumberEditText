@@ -35,13 +35,7 @@
             android:id="@+id/edt_phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/gap_internal"
-            android:background="#333333"
-            android:hint="Phone number text title"
-            android:label="Country list dialog title"
-            android:title="Code title"
-            android:textColor="#ffffff"
-            android:textColorHint="#aaaaaa" />
+            android:layout_margin="@dimen/gap_internal" />
 
     </LinearLayout>
 

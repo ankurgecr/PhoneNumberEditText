@@ -134,6 +134,7 @@ public class PhoneNumberEditText extends LinearLayout {
         if (viewBackground == null) {
             backgroundCustomised = false;
             viewBackground = input_phone.getBackground();
+            //viewBackground = ContextCompat.getDrawable(getContext(), R.drawable.bg_country_phone_custom_view);
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
                 super.setBackground(viewBackground);
             } else {
@@ -358,21 +359,6 @@ public class PhoneNumberEditText extends LinearLayout {
             //adapter.setDefaultHintColor(textColorHint);
             adapter.notifyDataSetChanged();
             //input_country_phone_container.setHin(textColorHint);
-
-            /*
-            int backgroundResId = a.getResourceId(
-                    R.styleable.PhoneNumberEditText_android_background,
-                    -999
-            );
-            if (backgroundResId != -999) {
-                containerBackground = ContextCompat.getDrawable(getContext(), backgroundResId);
-                backgroundCustomised = true;
-            } else {
-                containerBackground = ContextCompat.getDrawable(getContext(), android.R.drawable.editbox_background);
-                backgroundCustomised = false;
-            }
-            setContainerBackground(containerBackground);
-            */
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -422,20 +408,6 @@ public class PhoneNumberEditText extends LinearLayout {
             e.printStackTrace();
         }
     }
-
-    /*
-    public void setBackground(@DrawableRes int resourceId) {
-        setBackground(
-                ContextCompat.getDrawable(getContext(), resourceId)
-        );
-    }
-
-    public void setBackground(Drawable drawable) {
-        containerBackground = drawable;
-        backgroundCustomised = true;
-        setContainerBackground(containerBackground);
-    }
-    */
 
     public boolean isValid() {
         for (View view : compulsoryFields) {
