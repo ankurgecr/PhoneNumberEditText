@@ -282,7 +282,7 @@ public class PhoneNumberEditText extends LinearLayout {
         TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.PhoneNumberEditText, 0, 0);
         //TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.PhoneNumberEditText);
         try {
-            CharSequence hintText = a.getString(R.styleable.PhoneNumberEditText_phoneHint);
+            CharSequence hintText = a.getString(R.styleable.PhoneNumberEditText_android_hint);
             if (hintText != null) {
                 if (input_country_phone_container != null) {
                     input_country_phone_container.setHint(hintText);
@@ -291,24 +291,24 @@ public class PhoneNumberEditText extends LinearLayout {
                 }
             }
 
-            String spinnerPrompt = a.getString(R.styleable.PhoneNumberEditText_phoneSpinnerPrompt);
+            String spinnerPrompt = a.getString(R.styleable.PhoneNumberEditText_android_label);
             if (spinnerPrompt != null) {
                 spinner_countries.setPrompt(spinnerPrompt);
             }
 
-            String codeHintText = a.getString(R.styleable.PhoneNumberEditText_codeHint);
+            String codeHintText = a.getString(R.styleable.PhoneNumberEditText_android_title);
             if (codeHintText != null) {
                 txt_code_hint.setText(codeHintText);
             }
 
-            int textColor = a.getColor(R.styleable.PhoneNumberEditText_textColor, ContextCompat.getColor(getContext(), R.color.pnet_defaultTextColor));
+            int textColor = a.getColor(R.styleable.PhoneNumberEditText_android_textColor, ContextCompat.getColor(getContext(), R.color.pnet_defaultTextColor));
 
             input_phone.setTextColor(textColor);
             adapter.setDefaultTextColor(textColor);
 
             adapter.notifyDataSetChanged();
 
-            int textColorHint = a.getColor(R.styleable.PhoneNumberEditText_textColorHint, ContextCompat.getColor(getContext(), R.color.pnet_defaultHintTextColor));
+            int textColorHint = a.getColor(R.styleable.PhoneNumberEditText_android_textColorHint, ContextCompat.getColor(getContext(), R.color.pnet_defaultHintTextColor));
 
             input_phone.setHintTextColor(textColorHint);
             txt_code_hint.setTextColor(textColorHint);
@@ -507,11 +507,7 @@ public class PhoneNumberEditText extends LinearLayout {
 
     private static void showToast(Context context, CharSequence message) {
         try {
-            if (BuildConfig.DEBUG) {
-                Toast.makeText(context, message, Toast.LENGTH_LONG).show();
-            } else {
-                Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
-            }
+            Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
         } catch (Exception ignore) {
 
         }

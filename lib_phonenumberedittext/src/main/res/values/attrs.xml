@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <declare-styleable name="PhoneNumberEditText">
-        <attr name="phoneHint" format="string" />
-        <attr name="codeHint" format="string" />
-        <attr name="phoneSpinnerPrompt" format="string" />
-        <attr name="textColor" format="color" />
-        <attr name="textColorHint" format="color" />
+        <attr name="android:hint" format="string" />
+        <attr name="android:label" format="string" />
+        <attr name="android:title" format="string" />
+        <attr name="android:textColor" format="color" />
+        <attr name="android:textColorHint" format="color" />
         <attr name="android:background" format="reference" />
     </declare-styleable>
 </resources>

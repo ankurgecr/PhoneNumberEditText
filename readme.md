@@ -18,7 +18,7 @@ add the dependency to your project's build.gradle file:
 ```
 dependencies {
     //other dependencies
-    implementation "android.helper:phonenumberedittext:1.0.1"
+    implementation "android.helper:phonenumberedittext:1.0.2"
 }
 ```
 Then to sync up your project and you are all set to use PhoneNumberEditText.
@@ -37,16 +37,16 @@ Customization
 
 for more customization use these attributes:
 ```xml
-<android.helper.PhoneNumberEditText
+ <android.helper.PhoneNumberEditText
     android:id="@+id/edt_phone"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="#333333"
-    app:codeHint="Spinner hint"
-    app:phoneHint="EditText hint"
-    app:phoneSpinnerPrompt="Spinner prompt text"
-    app:textColor="#ffffff"
-    app:textColorHint="#aaaaaa" />
+    android:hint="Phone number text title"
+    android:label="Country list dialog title"
+    android:title="Code title"
+    android:textColor="#ffffff"
+    android:textColorHint="#aaaaaa" />
 ```
 Get and Set contact numbers
 --------

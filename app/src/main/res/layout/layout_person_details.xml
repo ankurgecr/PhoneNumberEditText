@@ -1,5 +1,4 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@android:color/white"
@@ -38,11 +37,11 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/gap_internal"
             android:background="#333333"
-            app:codeHint="Spinner hint"
-            app:phoneHint="EditText hint"
-            app:phoneSpinnerPrompt="Spinner prompt text"
-            app:textColor="#ffffff"
-            app:textColorHint="#aaaaaa" />
+            android:hint="Phone number text title"
+            android:label="Country list dialog title"
+            android:title="Code title"
+            android:textColor="#ffffff"
+            android:textColorHint="#aaaaaa" />
 
     </LinearLayout>
 
