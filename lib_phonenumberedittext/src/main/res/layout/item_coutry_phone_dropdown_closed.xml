@@ -14,7 +14,7 @@
         android:layout_height="20sp"
         android:layout_margin="4dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/pnet_default" />
+        android:src="@drawable/flag_unknown" />
 
     <TextView
         android:id="@+id/txt_country_code"

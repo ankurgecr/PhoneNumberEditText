@@ -4,6 +4,7 @@ import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
+import android.graphics.drawable.Drawable;
 import android.helper.adapters.CountryListForPhoneCodeAdapter;
 import android.helper.entity.Country;
 import android.os.Build;
@@ -56,7 +57,9 @@ public class PhoneNumberEditText extends LinearLayout {
     List<View> compulsoryFields = new ArrayList<>();
     List<View> properFields = new ArrayList<>();
     View touch_intersepter_layout;
-    View container;
+    private boolean backgroundCustomised = false;
+    private Drawable viewBackground;
+    //View container;
 
     public PhoneNumberEditText(Context context) {
         super(context);
@@ -97,7 +100,7 @@ public class PhoneNumberEditText extends LinearLayout {
         removeAllViewsInLayout();
         holderView = mInflater.inflate(R.layout.layout_country_phone_edit_text, this, true);
         input_phone = holderView.findViewById(R.id.input_country_phone);
-        container = holderView.findViewById(R.id.container);
+        //container = holderView.findViewById(R.id.container);
         touch_intersepter_layout = holderView.findViewById(R.id.touch_intersepter_layout);
         spinner_countries = holderView.findViewById(R.id.input_country_code);
         input_country_phone_container = holderView.findViewById(R.id.input_country_phone_container);
@@ -126,6 +129,43 @@ public class PhoneNumberEditText extends LinearLayout {
             //adapter.addCountries(Country.allCountries);
             setDefaultCountry();
         }
+
+        viewBackground = getBackground();
+        if (viewBackground == null) {
+            backgroundCustomised = false;
+            viewBackground = input_phone.getBackground();
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+                super.setBackground(viewBackground);
+            } else {
+                super.setBackgroundDrawable(viewBackground);
+            }
+        } else {
+            backgroundCustomised = true;
+        }
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+            input_phone.setBackground(null);
+        } else {
+            input_phone.setBackgroundDrawable(null);
+        }
+    }
+
+    @Override
+    public void setBackgroundColor(int color) {
+        super.setBackgroundColor(color);
+        backgroundCustomised = true;
+    }
+
+    @Override
+    public void setBackgroundResource(int resid) {
+        super.setBackgroundResource(resid);
+        backgroundCustomised = true;
+    }
+
+    @Override
+    public void setBackground(Drawable background) {
+        super.setBackground(background);
+        backgroundCustomised = true;
     }
 
     public static void initCountries(final Context context) {
@@ -319,9 +359,20 @@ public class PhoneNumberEditText extends LinearLayout {
             adapter.notifyDataSetChanged();
             //input_country_phone_container.setHin(textColorHint);
 
-            int backgroundResId = a.getResourceId(R.styleable.PhoneNumberEditText_android_background, R.drawable.cpet_bg_edit_text);
-            container.setBackgroundResource(backgroundResId);
-
+            /*
+            int backgroundResId = a.getResourceId(
+                    R.styleable.PhoneNumberEditText_android_background,
+                    -999
+            );
+            if (backgroundResId != -999) {
+                containerBackground = ContextCompat.getDrawable(getContext(), backgroundResId);
+                backgroundCustomised = true;
+            } else {
+                containerBackground = ContextCompat.getDrawable(getContext(), android.R.drawable.editbox_background);
+                backgroundCustomised = false;
+            }
+            setContainerBackground(containerBackground);
+            */
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -371,6 +422,20 @@ public class PhoneNumberEditText extends LinearLayout {
             e.printStackTrace();
         }
     }
+
+    /*
+    public void setBackground(@DrawableRes int resourceId) {
+        setBackground(
+                ContextCompat.getDrawable(getContext(), resourceId)
+        );
+    }
+
+    public void setBackground(Drawable drawable) {
+        containerBackground = drawable;
+        backgroundCustomised = true;
+        setContainerBackground(containerBackground);
+    }
+    */
 
     public boolean isValid() {
         for (View view : compulsoryFields) {
@@ -435,19 +500,36 @@ public class PhoneNumberEditText extends LinearLayout {
     public void setEditable(boolean editable) {
         if (editable) {
             touch_intersepter_layout.setVisibility(GONE);
-            container.setBackgroundResource(R.drawable.cpet_bg_edit_text);
+            setBackgroundResource(R.drawable.cpet_bg_edit_text);
+            /*if (!backgroundCustomised) {
+                setContainerBackground(containerBackground);
+            }*/
             input_phone.setFocusable(false);
             input_phone.setFocusableInTouchMode(false);
             spinner_countries.setClickable(true);
         } else {
             touch_intersepter_layout.setVisibility(VISIBLE);
-            container.setBackgroundResource(R.drawable.cpet_bg_edit_text_trans);
+            setBackgroundResource(R.drawable.cpet_bg_edit_text_trans);
+            /*if (!backgroundCustomised) {
+                setContainerBackground(null);
+            }*/
             input_phone.setFocusable(true);
             input_phone.setFocusableInTouchMode(true);
             spinner_countries.setClickable(false);
         }
-
     }
+
+    /*
+    private void setContainerBackground(Drawable drawable) {
+        if (container != null) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+                container.setBackground(drawable);
+            } else {
+                container.setBackgroundDrawable(drawable);
+            }
+        }
+    }
+    */
 
     //////////////////// Static fields ////////////////////
 
