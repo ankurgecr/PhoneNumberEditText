@@ -4,10 +4,10 @@ apply plugin: 'com.android.library'
 publish {
     def groupProjectID = 'android.helper'
     def artifactProjectID = 'phonenumberedittext'
-    def publishVersionID = '1.0.2'
+    def publishVersionID = '1.0.3'
 
     userOrg = 'ankurgecr'
-    repoName = 'phonenumberedittext'
+    repoName = 'phoneNumberEditText'
     groupId = groupProjectID
     artifactId = artifactProjectID
     publishVersion = publishVersionID
@@ -20,8 +20,8 @@ android {
 
     defaultConfig {
         minSdkVersion 8
-        versionCode 3
-        versionName "1.0.2"
+        versionCode 4
+        versionName "1.0.3"
     }
 
     buildTypes {

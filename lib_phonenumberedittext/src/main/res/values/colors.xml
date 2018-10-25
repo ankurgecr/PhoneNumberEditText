@@ -3,4 +3,5 @@
     <color name="pnet_defaultBackgroundColor">#99000000</color>
     <color name="pnet_defaultHintTextColor">#666666</color>
     <color name="pnet_defaultTextColor">#333333</color>
+    <color name="pned_color_separator">#cccccc</color>
 </resources>

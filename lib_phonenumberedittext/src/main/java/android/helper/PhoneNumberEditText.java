@@ -173,27 +173,7 @@ public class PhoneNumberEditText extends LinearLayout {
         new Handler().post(new Runnable() {
             @Override
             public void run() {
-                try {
-                    String countryResponseString = loadJSONFromAsset(context);
-                    JSONObject responseJson = new JSONObject(countryResponseString);
-                    String Status = responseJson.getString("Status");
-                    String Message = responseJson.getString("Message");
-                    if ("Success".equals(Status)) {
-                        Gson gson = new Gson();
-                        List<Country> countries = new ArrayList<Country>();
-                        JSONArray dataList = responseJson.getJSONObject("Data").getJSONArray("list");
-                        for (int i = 0; i < dataList.length(); i++) {
-                            Country country = gson.fromJson(dataList.getJSONObject(i).toString(), Country.class);
-                            countries.add(country);
-                        }
-                        Country.initCountries(countries);
-                    } else {
-                        showToast(context, Message);
-                        Log.d(TAG, "initCountries error: [" + Message + "] --");
-                    }
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
+                loadCountries(context);
             }
         });
     }
@@ -213,12 +193,35 @@ public class PhoneNumberEditText extends LinearLayout {
                     countries.add(country);
                 }
                 Country.initCountries(countries);
-
-                adapter.addCountries(Country.allCountries);
+                Country.sortCountries();
+                adapter.notifyDataSetChanged();//addCountries(Country.allCountries);
                 setDefaultCountry();
-
             } else {
                 showToast(getContext(), Message);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    static void loadCountries(Context context) {
+        try {
+            String countryResponseString = loadJSONFromAsset(context);
+            JSONObject responseJson = new JSONObject(countryResponseString);
+            String Status = responseJson.getString("Status");
+            String Message = responseJson.getString("Message");
+            if ("Success".equals(Status)) {
+                Gson gson = new Gson();
+                List<Country> countries = new ArrayList<Country>();
+                JSONArray dataList = responseJson.getJSONObject("Data").getJSONArray("list");
+                for (int i = 0; i < dataList.length(); i++) {
+                    Country country = gson.fromJson(dataList.getJSONObject(i).toString(), Country.class);
+                    countries.add(country);
+                }
+                Country.initCountries(countries);
+            } else {
+                showToast(context, Message);
+                Log.d(TAG, "initCountries error: [" + Message + "] --");
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -504,6 +507,20 @@ public class PhoneNumberEditText extends LinearLayout {
     */
 
     //////////////////// Static fields ////////////////////
+
+    public static void setFavoriteCountry(Context context, String countryCode) {
+        if (Country.allCountries == null || Country.allCountries.isEmpty()) {
+            loadCountries(context);
+        }
+        Country.setFavoriteCountry(countryCode);
+    }
+
+    public static void removeFavoriteCountry(Context context, String countryCode) {
+        if (Country.allCountries == null || Country.allCountries.isEmpty()) {
+            loadCountries(context);
+        }
+        Country.removeFavoriteCountry(countryCode);
+    }
 
     public void setMaxLength(int length) {
         input_phone.setFilters(

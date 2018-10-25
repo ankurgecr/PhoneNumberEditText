@@ -1,6 +1,8 @@
 package android.helper.entity;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -21,6 +23,7 @@ public class Country {
     public String ISO;
     public String Numcode;
     public String Nicename;
+    public int index = 1;
 
     public static Country getCountryFromMobileNumber(String mobile) {
         if (mobile == null || mobile.trim().length() == 0) {
@@ -96,6 +99,43 @@ public class Country {
             result = "0" + result;
         }
         return result;
+    }
+
+    public static void setFavoriteCountry(String countryCode) {
+        if (countryCode == null)
+            return;
+        for (Country country : allCountries) {
+            if (country.ISO.equals(countryCode) || countryCode.equals(country.ISO3) || country.Phonecode.equals(countryCode)) {
+                country.index = 0;
+            }
+        }
+        sortCountries();
+    }
+
+    public static void removeFavoriteCountry(String countryCode) {
+        if (countryCode == null)
+            return;
+        for (Country country : allCountries) {
+            if (country.ISO.equals(countryCode) || countryCode.equals(country.ISO3) || country.Phonecode.equals(countryCode)) {
+                country.index = 1;
+            }
+        }
+        sortCountries();
+    }
+
+    public static void sortCountries() {
+        //java.util.Collections.sort(allCountries, Collator.getInstance());
+        Collections.sort(allCountries, new Comparator<Country>() {
+            @Override
+            public int compare(Country country1, Country country2) {
+                int diff;
+                diff = country1.index - country2.index;
+                if (diff == 0) {
+                    diff = country1.Name.compareTo(country2.Name);
+                }
+                return diff;
+            }
+        });
     }
 
 }

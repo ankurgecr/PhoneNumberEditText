@@ -44,6 +44,7 @@ public class CountryListForPhoneCodeAdapter extends ArrayAdapter<Country> {
         ImageView img_country_flag = row.findViewById(R.id.img_country_flag);
         TextView txt_country_title = row.findViewById(R.id.txt_country_title);
         TextView txt_country_code = row.findViewById(R.id.txt_country_code);
+        View separator = row.findViewById(R.id.separator);
 
         txt_country_code.setTextColor(defaultHintColor);
         txt_country_code.setHintTextColor(defaultHintColor);
@@ -56,6 +57,17 @@ public class CountryListForPhoneCodeAdapter extends ArrayAdapter<Country> {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        if (position < countries.size() - 1) {
+            if (countries.get(position).index != countries.get(position + 1).index) {
+                separator.setVisibility(View.VISIBLE);
+            } else {
+                separator.setVisibility(View.GONE);
+            }
+        } else {
+            separator.setVisibility(View.GONE);
+        }
+
         return row;
     }
 

@@ -1,3 +1,4 @@
+/*https://en.wikivoyage.org/wiki/List_of_country_calling_codes*/
 {
   "StatusCode": 200,
   "Status": "Success",
@@ -83,7 +84,7 @@
         "Nicename": "Antarctica",
         "ISO3": null,
         "Numcode": null,
-        "Phonecode": 672
+        "Phonecode": 6721
       },
       {
         "Id": 9,
@@ -2154,6 +2155,33 @@
         "ISO3": "ZWE",
         "Numcode": 716,
         "Phonecode": 263
+      },
+      {
+        "Id": 240,
+        "ISO": "DO",
+        "Name": "DOMINICAN REPUBLIC",
+        "Nicename": "Dominican Republic",
+        "ISO3": "DOM",
+        "Numcode": 214,
+        "Phonecode": 1829
+      },
+      {
+        "Id": 241,
+        "ISO": "DO",
+        "Name": "DOMINICAN REPUBLIC",
+        "Nicename": "Dominican Republic",
+        "ISO3": "DOM",
+        "Numcode": 214,
+        "Phonecode": 1849
+      },
+      {
+        "Id": 242,
+        "ISO": "PR",
+        "Name": "PUERTO RICO",
+        "Nicename": "Puerto Rico",
+        "ISO3": "PRI",
+        "Numcode": 630,
+        "Phonecode": 1939
       }
     ]
   }
