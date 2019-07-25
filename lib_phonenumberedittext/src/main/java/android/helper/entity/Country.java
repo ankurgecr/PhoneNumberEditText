@@ -24,6 +24,8 @@ public class Country {
     public String Numcode;
     public String Nicename;
     public int index = 1;
+    public int MinLengthNum = 10;
+    public int MaxLengthNum = 10;
 
     public static Country getCountryFromMobileNumber(String mobile) {
         if (mobile == null || mobile.trim().length() == 0) {
@@ -105,7 +107,7 @@ public class Country {
         if (countryCode == null)
             return;
         for (Country country : allCountries) {
-            if (country.ISO.equals(countryCode) || countryCode.equals(country.ISO3) || country.Phonecode.equals(countryCode)) {
+            if (country.matches(countryCode)) {
                 country.index = 0;
             }
         }
@@ -116,7 +118,7 @@ public class Country {
         if (countryCode == null)
             return;
         for (Country country : allCountries) {
-            if (country.ISO.equals(countryCode) || countryCode.equals(country.ISO3) || country.Phonecode.equals(countryCode)) {
+            if (country.matches(countryCode)) {
                 country.index = 1;
             }
         }
@@ -136,6 +138,45 @@ public class Country {
                 return diff;
             }
         });
+    }
+
+    public static void restrictToCountries(List<String> allowedCountries) {
+        List<Country> toRemove = new ArrayList<>();
+        for (Country country : allCountries) {
+            boolean shouldRemove = true;
+            for (String countryCode : allowedCountries) {
+                if (country.matches(countryCode)) {
+                    shouldRemove = false;
+                    break;
+                }
+            }
+            if (shouldRemove)
+                toRemove.add(country);
+        }
+        allCountries.removeAll(toRemove);
+    }
+
+    public static void removeCountries(List<String> toRemoveCountries) {
+        List<Country> toRemove = new ArrayList<>();
+        for (Country country : allCountries) {
+            boolean shouldRemove = false;
+            for (String countryCode : toRemoveCountries) {
+                if (country.matches(countryCode)) {
+                    shouldRemove = true;
+                    break;
+                }
+            }
+            if (shouldRemove)
+                toRemove.add(country);
+        }
+        allCountries.removeAll(toRemove);
+    }
+
+    public boolean matches(String countryCode) {
+        if (countryCode != null && this.ISO.equals(countryCode) || countryCode.equals(this.ISO3) || this.Phonecode.equals(countryCode)) {
+            return true;
+        }
+        return false;
     }
 
 }

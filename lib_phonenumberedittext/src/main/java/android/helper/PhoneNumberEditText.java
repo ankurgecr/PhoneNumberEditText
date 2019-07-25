@@ -472,6 +472,12 @@ public class PhoneNumberEditText extends LinearLayout {
         return true;
     }
 
+    public boolean isNumberValid() {
+        String number = input_phone.getText().toString();
+        Country country = (Country) spinner_countries.getSelectedItem();
+        return number.length() >= country.MinLengthNum && number.length() <= country.MaxLengthNum;
+    }
+
     public void setEditable(boolean editable) {
         if (editable) {
             touch_intersepter_layout.setVisibility(GONE);
@@ -562,6 +568,33 @@ public class PhoneNumberEditText extends LinearLayout {
 
         //return "(+" + code + ")" + mobile;
         return "+" + code + " " + formatContactNumber(mobile);
+    }
+
+    public static String getPrintableMobileNumberPlain(String number) {
+        if (!isValid(number)) {
+            return "";
+        }
+        number = number.trim();
+        String code = "";
+        String mobile = "";
+        if (number.length() > 4) {
+            code = number.substring(0, 4);
+            mobile = number.substring(4, number.length());
+        } else {
+            mobile = number;
+        }
+
+        int index = 0;
+        for (int i = 0; i < code.length(); i++) {
+            if (code.charAt(i) != '0') {
+                index = i;
+                break;
+            }
+        }
+        code = code.substring(index, code.length());
+
+        //return "(+" + code + ")" + mobile;
+        return "+" + code + "" + mobile;
     }
 
     private static void setError(EditText editText) {

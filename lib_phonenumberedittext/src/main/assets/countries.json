@@ -11,8 +11,10 @@
         "Name": "UNITED STATES",
         "Nicename": "United States",
         "ISO3": "USA",
-        "Numcode": 840,
-        "Phonecode": 1
+        "Numcode": "840",
+        "Phonecode": 1,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 1,
@@ -20,8 +22,10 @@
         "Name": "AFGHANISTAN",
         "Nicename": "Afghanistan",
         "ISO3": "AFG",
-        "Numcode": 4,
-        "Phonecode": 93
+        "Numcode": "4",
+        "Phonecode": 93,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 2,
@@ -29,8 +33,10 @@
         "Name": "ALBANIA",
         "Nicename": "Albania",
         "ISO3": "ALB",
-        "Numcode": 8,
-        "Phonecode": 355
+        "Numcode": "8",
+        "Phonecode": 355,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 3,
@@ -38,8 +44,10 @@
         "Name": "ALGERIA",
         "Nicename": "Algeria",
         "ISO3": "DZA",
-        "Numcode": 12,
-        "Phonecode": 213
+        "Numcode": "12",
+        "Phonecode": 213,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 4,
@@ -47,8 +55,10 @@
         "Name": "AMERICAN SAMOA",
         "Nicename": "American Samoa",
         "ISO3": "ASM",
-        "Numcode": 16,
-        "Phonecode": 1684
+        "Numcode": "16",
+        "Phonecode": 1684,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 5,
@@ -56,8 +66,10 @@
         "Name": "ANDORRA",
         "Nicename": "Andorra",
         "ISO3": "AND",
-        "Numcode": 20,
-        "Phonecode": 376
+        "Numcode": "20",
+        "Phonecode": 376,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 6,
@@ -65,8 +77,10 @@
         "Name": "ANGOLA",
         "Nicename": "Angola",
         "ISO3": "AGO",
-        "Numcode": 24,
-        "Phonecode": 244
+        "Numcode": "24",
+        "Phonecode": 244,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 7,
@@ -74,8 +88,10 @@
         "Name": "ANGUILLA",
         "Nicename": "Anguilla",
         "ISO3": "AIA",
-        "Numcode": 660,
-        "Phonecode": 1264
+        "Numcode": "660",
+        "Phonecode": 1264,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 8,
@@ -84,7 +100,9 @@
         "Nicename": "Antarctica",
         "ISO3": null,
         "Numcode": null,
-        "Phonecode": 6721
+        "Phonecode": 6721,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 9,
@@ -92,8 +110,10 @@
         "Name": "ANTIGUA AND BARBUDA",
         "Nicename": "Antigua and Barbuda",
         "ISO3": "ATG",
-        "Numcode": 28,
-        "Phonecode": 1268
+        "Numcode": "28",
+        "Phonecode": 1268,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 10,
@@ -101,8 +121,10 @@
         "Name": "ARGENTINA",
         "Nicename": "Argentina",
         "ISO3": "ARG",
-        "Numcode": 32,
-        "Phonecode": 54
+        "Numcode": "32",
+        "Phonecode": 54,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 11,
@@ -110,8 +132,10 @@
         "Name": "ARMENIA",
         "Nicename": "Armenia",
         "ISO3": "ARM",
-        "Numcode": 51,
-        "Phonecode": 374
+        "Numcode": "51",
+        "Phonecode": 374,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 12,
@@ -119,8 +143,10 @@
         "Name": "ARUBA",
         "Nicename": "Aruba",
         "ISO3": "ABW",
-        "Numcode": 533,
-        "Phonecode": 297
+        "Numcode": "533",
+        "Phonecode": 297,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 13,
@@ -128,8 +154,10 @@
         "Name": "AUSTRALIA",
         "Nicename": "Australia",
         "ISO3": "AUS",
-        "Numcode": 36,
-        "Phonecode": 61
+        "Numcode": "36",
+        "Phonecode": 61,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 14,
@@ -137,8 +165,10 @@
         "Name": "AUSTRIA",
         "Nicename": "Austria",
         "ISO3": "AUT",
-        "Numcode": 40,
-        "Phonecode": 43
+        "Numcode": "40",
+        "Phonecode": 43,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 15,
@@ -146,8 +176,10 @@
         "Name": "AZERBAIJAN",
         "Nicename": "Azerbaijan",
         "ISO3": "AZE",
-        "Numcode": 31,
-        "Phonecode": 994
+        "Numcode": "31",
+        "Phonecode": 994,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 16,
@@ -155,8 +187,10 @@
         "Name": "BAHAMAS",
         "Nicename": "Bahamas",
         "ISO3": "BHS",
-        "Numcode": 44,
-        "Phonecode": 1242
+        "Numcode": "44",
+        "Phonecode": 1242,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 17,
@@ -164,8 +198,10 @@
         "Name": "BAHRAIN",
         "Nicename": "Bahrain",
         "ISO3": "BHR",
-        "Numcode": 48,
-        "Phonecode": 973
+        "Numcode": "48",
+        "Phonecode": 973,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 18,
@@ -173,8 +209,10 @@
         "Name": "BANGLADESH",
         "Nicename": "Bangladesh",
         "ISO3": "BGD",
-        "Numcode": 50,
-        "Phonecode": 880
+        "Numcode": "50",
+        "Phonecode": 880,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 19,
@@ -182,8 +220,10 @@
         "Name": "BARBADOS",
         "Nicename": "Barbados",
         "ISO3": "BRB",
-        "Numcode": 52,
-        "Phonecode": 1246
+        "Numcode": "52",
+        "Phonecode": 1246,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 20,
@@ -191,8 +231,10 @@
         "Name": "BELARUS",
         "Nicename": "Belarus",
         "ISO3": "BLR",
-        "Numcode": 112,
-        "Phonecode": 375
+        "Numcode": "112",
+        "Phonecode": 375,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 21,
@@ -200,8 +242,10 @@
         "Name": "BELGIUM",
         "Nicename": "Belgium",
         "ISO3": "BEL",
-        "Numcode": 56,
-        "Phonecode": 32
+        "Numcode": "56",
+        "Phonecode": 32,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 22,
@@ -209,8 +253,10 @@
         "Name": "BELIZE",
         "Nicename": "Belize",
         "ISO3": "BLZ",
-        "Numcode": 84,
-        "Phonecode": 501
+        "Numcode": "84",
+        "Phonecode": 501,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 23,
@@ -218,8 +264,10 @@
         "Name": "BENIN",
         "Nicename": "Benin",
         "ISO3": "BEN",
-        "Numcode": 204,
-        "Phonecode": 229
+        "Numcode": "204",
+        "Phonecode": 229,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 24,
@@ -227,8 +275,10 @@
         "Name": "BERMUDA",
         "Nicename": "Bermuda",
         "ISO3": "BMU",
-        "Numcode": 60,
-        "Phonecode": 1441
+        "Numcode": "60",
+        "Phonecode": 1441,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 25,
@@ -236,8 +286,10 @@
         "Name": "BHUTAN",
         "Nicename": "Bhutan",
         "ISO3": "BTN",
-        "Numcode": 64,
-        "Phonecode": 975
+        "Numcode": "64",
+        "Phonecode": 975,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 26,
@@ -245,8 +297,10 @@
         "Name": "BOLIVIA",
         "Nicename": "Bolivia",
         "ISO3": "BOL",
-        "Numcode": 68,
-        "Phonecode": 591
+        "Numcode": "68",
+        "Phonecode": 591,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 27,
@@ -254,8 +308,10 @@
         "Name": "BOSNIA AND HERZEGOVINA",
         "Nicename": "Bosnia and Herzegovina",
         "ISO3": "BIH",
-        "Numcode": 70,
-        "Phonecode": 387
+        "Numcode": "70",
+        "Phonecode": 387,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 28,
@@ -263,8 +319,10 @@
         "Name": "BOTSWANA",
         "Nicename": "Botswana",
         "ISO3": "BWA",
-        "Numcode": 72,
-        "Phonecode": 267
+        "Numcode": "72",
+        "Phonecode": 267,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 29,
@@ -273,7 +331,9 @@
         "Nicename": "Bouvet Island",
         "ISO3": null,
         "Numcode": null,
-        "Phonecode": 55
+        "Phonecode": 55,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 30,
@@ -281,8 +341,10 @@
         "Name": "BRAZIL",
         "Nicename": "Brazil",
         "ISO3": "BRA",
-        "Numcode": 76,
-        "Phonecode": 55
+        "Numcode": "76",
+        "Phonecode": 55,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 31,
@@ -291,7 +353,9 @@
         "Nicename": "British Indian Ocean Territory",
         "ISO3": null,
         "Numcode": null,
-        "Phonecode": 246
+        "Phonecode": 246,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 32,
@@ -299,8 +363,10 @@
         "Name": "BRUNEI DARUSSALAM",
         "Nicename": "Brunei Darussalam",
         "ISO3": "BRN",
-        "Numcode": 96,
-        "Phonecode": 673
+        "Numcode": "96",
+        "Phonecode": 673,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 33,
@@ -308,8 +374,10 @@
         "Name": "BULGARIA",
         "Nicename": "Bulgaria",
         "ISO3": "BGR",
-        "Numcode": 100,
-        "Phonecode": 359
+        "Numcode": "100",
+        "Phonecode": 359,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 34,
@@ -317,8 +385,10 @@
         "Name": "BURKINA FASO",
         "Nicename": "Burkina Faso",
         "ISO3": "BFA",
-        "Numcode": 854,
-        "Phonecode": 226
+        "Numcode": "854",
+        "Phonecode": 226,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 35,
@@ -326,8 +396,10 @@
         "Name": "BURUNDI",
         "Nicename": "Burundi",
         "ISO3": "BDI",
-        "Numcode": 108,
-        "Phonecode": 257
+        "Numcode": "108",
+        "Phonecode": 257,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 36,
@@ -335,8 +407,10 @@
         "Name": "CAMBODIA",
         "Nicename": "Cambodia",
         "ISO3": "KHM",
-        "Numcode": 116,
-        "Phonecode": 855
+        "Numcode": "116",
+        "Phonecode": 855,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 37,
@@ -344,8 +418,10 @@
         "Name": "CAMEROON",
         "Nicename": "Cameroon",
         "ISO3": "CMR",
-        "Numcode": 120,
-        "Phonecode": 237
+        "Numcode": "120",
+        "Phonecode": 237,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 38,
@@ -353,8 +429,10 @@
         "Name": "CANADA",
         "Nicename": "Canada",
         "ISO3": "CAN",
-        "Numcode": 124,
-        "Phonecode": 1
+        "Numcode": "124",
+        "Phonecode": 1,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 39,
@@ -362,8 +440,10 @@
         "Name": "CAPE VERDE",
         "Nicename": "Cape Verde",
         "ISO3": "CPV",
-        "Numcode": 132,
-        "Phonecode": 238
+        "Numcode": "132",
+        "Phonecode": 238,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 40,
@@ -371,8 +451,10 @@
         "Name": "CAYMAN ISLANDS",
         "Nicename": "Cayman Islands",
         "ISO3": "CYM",
-        "Numcode": 136,
-        "Phonecode": 1345
+        "Numcode": "136",
+        "Phonecode": 1345,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 41,
@@ -380,8 +462,10 @@
         "Name": "CENTRAL AFRICAN REPUBLIC",
         "Nicename": "Central African Republic",
         "ISO3": "CAF",
-        "Numcode": 140,
-        "Phonecode": 236
+        "Numcode": "140",
+        "Phonecode": 236,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 42,
@@ -389,8 +473,10 @@
         "Name": "CHAD",
         "Nicename": "Chad",
         "ISO3": "TCD",
-        "Numcode": 148,
-        "Phonecode": 235
+        "Numcode": "148",
+        "Phonecode": 235,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 43,
@@ -398,8 +484,10 @@
         "Name": "CHILE",
         "Nicename": "Chile",
         "ISO3": "CHL",
-        "Numcode": 152,
-        "Phonecode": 56
+        "Numcode": "152",
+        "Phonecode": 56,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 44,
@@ -407,8 +495,10 @@
         "Name": "CHINA",
         "Nicename": "China",
         "ISO3": "CHN",
-        "Numcode": 156,
-        "Phonecode": 86
+        "Numcode": "156",
+        "Phonecode": 86,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 45,
@@ -417,7 +507,9 @@
         "Nicename": "Christmas Island",
         "ISO3": null,
         "Numcode": null,
-        "Phonecode": 61
+        "Phonecode": 61,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 46,
@@ -426,7 +518,9 @@
         "Nicename": "Cocos (Keeling) Islands",
         "ISO3": null,
         "Numcode": null,
-        "Phonecode": 891
+        "Phonecode": 891,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 47,
@@ -434,8 +528,10 @@
         "Name": "COLOMBIA",
         "Nicename": "Colombia",
         "ISO3": "COL",
-        "Numcode": 170,
-        "Phonecode": 57
+        "Numcode": "170",
+        "Phonecode": 57,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 48,
@@ -443,8 +539,10 @@
         "Name": "COMOROS",
         "Nicename": "Comoros",
         "ISO3": "COM",
-        "Numcode": 174,
-        "Phonecode": 269
+        "Numcode": "174",
+        "Phonecode": 269,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 49,
@@ -452,8 +550,10 @@
         "Name": "CONGO",
         "Nicename": "Congo",
         "ISO3": "COG",
-        "Numcode": 178,
-        "Phonecode": 242
+        "Numcode": "178",
+        "Phonecode": 242,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 50,
@@ -461,8 +561,10 @@
         "Name": "CONGO, THE DEMOCRATIC REPUBLIC OF THE",
         "Nicename": "Congo, the Democratic Republic of the",
         "ISO3": "COD",
-        "Numcode": 180,
-        "Phonecode": 242
+        "Numcode": "180",
+        "Phonecode": 242,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 51,
@@ -470,8 +572,10 @@
         "Name": "COOK ISLANDS",
         "Nicename": "Cook Islands",
         "ISO3": "COK",
-        "Numcode": 184,
-        "Phonecode": 682
+        "Numcode": "184",
+        "Phonecode": 682,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 52,
@@ -479,8 +583,10 @@
         "Name": "COSTA RICA",
         "Nicename": "Costa Rica",
         "ISO3": "CRI",
-        "Numcode": 188,
-        "Phonecode": 506
+        "Numcode": "188",
+        "Phonecode": 506,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 53,
@@ -488,8 +594,10 @@
         "Name": "COTE D'IVOIRE",
         "Nicename": "Cote D'Ivoire",
         "ISO3": "CIV",
-        "Numcode": 384,
-        "Phonecode": 225
+        "Numcode": "384",
+        "Phonecode": 225,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 54,
@@ -497,8 +605,10 @@
         "Name": "CROATIA",
         "Nicename": "Croatia",
         "ISO3": "HRV",
-        "Numcode": 191,
-        "Phonecode": 385
+        "Numcode": "191",
+        "Phonecode": 385,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 55,
@@ -506,8 +616,10 @@
         "Name": "CUBA",
         "Nicename": "Cuba",
         "ISO3": "CUB",
-        "Numcode": 192,
-        "Phonecode": 53
+        "Numcode": "192",
+        "Phonecode": 53,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 56,
@@ -515,8 +627,10 @@
         "Name": "CYPRUS",
         "Nicename": "Cyprus",
         "ISO3": "CYP",
-        "Numcode": 196,
-        "Phonecode": 357
+        "Numcode": "196",
+        "Phonecode": 357,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 57,
@@ -524,8 +638,10 @@
         "Name": "CZECH REPUBLIC",
         "Nicename": "Czech Republic",
         "ISO3": "CZE",
-        "Numcode": 203,
-        "Phonecode": 420
+        "Numcode": "203",
+        "Phonecode": 420,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 58,
@@ -533,8 +649,10 @@
         "Name": "DENMARK",
         "Nicename": "Denmark",
         "ISO3": "DNK",
-        "Numcode": 208,
-        "Phonecode": 45
+        "Numcode": "208",
+        "Phonecode": 45,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 59,
@@ -542,8 +660,10 @@
         "Name": "DJIBOUTI",
         "Nicename": "Djibouti",
         "ISO3": "DJI",
-        "Numcode": 262,
-        "Phonecode": 253
+        "Numcode": "262",
+        "Phonecode": 253,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 60,
@@ -551,8 +671,10 @@
         "Name": "DOMINICA",
         "Nicename": "Dominica",
         "ISO3": "DMA",
-        "Numcode": 212,
-        "Phonecode": 1767
+        "Numcode": "212",
+        "Phonecode": 1767,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 61,
@@ -560,8 +682,10 @@
         "Name": "DOMINICAN REPUBLIC",
         "Nicename": "Dominican Republic",
         "ISO3": "DOM",
-        "Numcode": 214,
-        "Phonecode": 1809
+        "Numcode": "214",
+        "Phonecode": 1809,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 62,
@@ -569,8 +693,10 @@
         "Name": "ECUADOR",
         "Nicename": "Ecuador",
         "ISO3": "ECU",
-        "Numcode": 218,
-        "Phonecode": 593
+        "Numcode": "218",
+        "Phonecode": 593,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 63,
@@ -578,8 +704,10 @@
         "Name": "EGYPT",
         "Nicename": "Egypt",
         "ISO3": "EGY",
-        "Numcode": 818,
-        "Phonecode": 20
+        "Numcode": "818",
+        "Phonecode": 20,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 64,
@@ -587,8 +715,10 @@
         "Name": "EL SALVADOR",
         "Nicename": "El Salvador",
         "ISO3": "SLV",
-        "Numcode": 222,
-        "Phonecode": 503
+        "Numcode": "222",
+        "Phonecode": 503,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 65,
@@ -596,8 +726,10 @@
         "Name": "EQUATORIAL GUINEA",
         "Nicename": "Equatorial Guinea",
         "ISO3": "GNQ",
-        "Numcode": 226,
-        "Phonecode": 240
+        "Numcode": "226",
+        "Phonecode": 240,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 66,
@@ -605,8 +737,10 @@
         "Name": "ERITREA",
         "Nicename": "Eritrea",
         "ISO3": "ERI",
-        "Numcode": 232,
-        "Phonecode": 291
+        "Numcode": "232",
+        "Phonecode": 291,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 67,
@@ -614,8 +748,10 @@
         "Name": "ESTONIA",
         "Nicename": "Estonia",
         "ISO3": "EST",
-        "Numcode": 233,
-        "Phonecode": 372
+        "Numcode": "233",
+        "Phonecode": 372,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 68,
@@ -623,8 +759,10 @@
         "Name": "ETHIOPIA",
         "Nicename": "Ethiopia",
         "ISO3": "ETH",
-        "Numcode": 231,
-        "Phonecode": 251
+        "Numcode": "231",
+        "Phonecode": 251,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 69,
@@ -632,8 +770,10 @@
         "Name": "FALKLAND ISLANDS (MALVINAS)",
         "Nicename": "Falkland Islands (Malvinas)",
         "ISO3": "FLK",
-        "Numcode": 238,
-        "Phonecode": 500
+        "Numcode": "238",
+        "Phonecode": 500,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 70,
@@ -641,8 +781,10 @@
         "Name": "FAROE ISLANDS",
         "Nicename": "Faroe Islands",
         "ISO3": "FRO",
-        "Numcode": 234,
-        "Phonecode": 298
+        "Numcode": "234",
+        "Phonecode": 298,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 71,
@@ -650,8 +792,10 @@
         "Name": "FIJI",
         "Nicename": "Fiji",
         "ISO3": "FJI",
-        "Numcode": 242,
-        "Phonecode": 679
+        "Numcode": "242",
+        "Phonecode": 679,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 72,
@@ -659,8 +803,10 @@
         "Name": "FINLAND",
         "Nicename": "Finland",
         "ISO3": "FIN",
-        "Numcode": 246,
-        "Phonecode": 358
+        "Numcode": "246",
+        "Phonecode": 358,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 73,
@@ -668,8 +814,10 @@
         "Name": "FRANCE",
         "Nicename": "France",
         "ISO3": "FRA",
-        "Numcode": 250,
-        "Phonecode": 33
+        "Numcode": "250",
+        "Phonecode": 33,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 74,
@@ -677,8 +825,10 @@
         "Name": "FRENCH GUIANA",
         "Nicename": "French Guiana",
         "ISO3": "GUF",
-        "Numcode": 254,
-        "Phonecode": 594
+        "Numcode": "254",
+        "Phonecode": 594,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 75,
@@ -686,8 +836,10 @@
         "Name": "FRENCH POLYNESIA",
         "Nicename": "French Polynesia",
         "ISO3": "PYF",
-        "Numcode": 258,
-        "Phonecode": 689
+        "Numcode": "258",
+        "Phonecode": 689,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 76,
@@ -696,7 +848,9 @@
         "Nicename": "French Southern Territories",
         "ISO3": null,
         "Numcode": null,
-        "Phonecode": 0
+        "Phonecode": 0,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 77,
@@ -704,8 +858,10 @@
         "Name": "GABON",
         "Nicename": "Gabon",
         "ISO3": "GAB",
-        "Numcode": 266,
-        "Phonecode": 241
+        "Numcode": "266",
+        "Phonecode": 241,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 78,
@@ -713,8 +869,10 @@
         "Name": "GAMBIA",
         "Nicename": "Gambia",
         "ISO3": "GMB",
-        "Numcode": 270,
-        "Phonecode": 220
+        "Numcode": "270",
+        "Phonecode": 220,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 79,
@@ -722,8 +880,10 @@
         "Name": "GEORGIA",
         "Nicename": "Georgia",
         "ISO3": "GEO",
-        "Numcode": 268,
-        "Phonecode": 995
+        "Numcode": "268",
+        "Phonecode": 995,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 80,
@@ -731,8 +891,10 @@
         "Name": "GERMANY",
         "Nicename": "Germany",
         "ISO3": "DEU",
-        "Numcode": 276,
-        "Phonecode": 49
+        "Numcode": "276",
+        "Phonecode": 49,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 81,
@@ -740,8 +902,10 @@
         "Name": "GHANA",
         "Nicename": "Ghana",
         "ISO3": "GHA",
-        "Numcode": 288,
-        "Phonecode": 233
+        "Numcode": "288",
+        "Phonecode": 233,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 82,
@@ -749,8 +913,10 @@
         "Name": "GIBRALTAR",
         "Nicename": "Gibraltar",
         "ISO3": "GIB",
-        "Numcode": 292,
-        "Phonecode": 350
+        "Numcode": "292",
+        "Phonecode": 350,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 83,
@@ -758,8 +924,10 @@
         "Name": "GREECE",
         "Nicename": "Greece",
         "ISO3": "GRC",
-        "Numcode": 300,
-        "Phonecode": 30
+        "Numcode": "300",
+        "Phonecode": 30,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 84,
@@ -767,8 +935,10 @@
         "Name": "GREENLAND",
         "Nicename": "Greenland",
         "ISO3": "GRL",
-        "Numcode": 304,
-        "Phonecode": 299
+        "Numcode": "304",
+        "Phonecode": 299,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 85,
@@ -776,8 +946,10 @@
         "Name": "GRENADA",
         "Nicename": "Grenada",
         "ISO3": "GRD",
-        "Numcode": 308,
-        "Phonecode": 1473
+        "Numcode": "308",
+        "Phonecode": 1473,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 86,
@@ -785,8 +957,10 @@
         "Name": "GUADELOUPE",
         "Nicename": "Guadeloupe",
         "ISO3": "GLP",
-        "Numcode": 312,
-        "Phonecode": 590
+        "Numcode": "312",
+        "Phonecode": 590,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 87,
@@ -794,8 +968,10 @@
         "Name": "GUAM",
         "Nicename": "Guam",
         "ISO3": "GUM",
-        "Numcode": 316,
-        "Phonecode": 1671
+        "Numcode": "316",
+        "Phonecode": 1671,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 88,
@@ -803,8 +979,10 @@
         "Name": "GUATEMALA",
         "Nicename": "Guatemala",
         "ISO3": "GTM",
-        "Numcode": 320,
-        "Phonecode": 502
+        "Numcode": "320",
+        "Phonecode": 502,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 89,
@@ -812,8 +990,10 @@
         "Name": "GUINEA",
         "Nicename": "Guinea",
         "ISO3": "GIN",
-        "Numcode": 324,
-        "Phonecode": 224
+        "Numcode": "324",
+        "Phonecode": 224,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 90,
@@ -821,8 +1001,10 @@
         "Name": "GUINEA-BISSAU",
         "Nicename": "Guinea-Bissau",
         "ISO3": "GNB",
-        "Numcode": 624,
-        "Phonecode": 245
+        "Numcode": "624",
+        "Phonecode": 245,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 91,
@@ -830,8 +1012,10 @@
         "Name": "GUYANA",
         "Nicename": "Guyana",
         "ISO3": "GUY",
-        "Numcode": 328,
-        "Phonecode": 592
+        "Numcode": "328",
+        "Phonecode": 592,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 92,
@@ -839,8 +1023,10 @@
         "Name": "HAITI",
         "Nicename": "Haiti",
         "ISO3": "HTI",
-        "Numcode": 332,
-        "Phonecode": 509
+        "Numcode": "332",
+        "Phonecode": 509,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 93,
@@ -849,7 +1035,9 @@
         "Nicename": "Heard Island and Mcdonald Islands",
         "ISO3": null,
         "Numcode": null,
-        "Phonecode": 672
+        "Phonecode": 672,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 94,
@@ -857,8 +1045,10 @@
         "Name": "HOLY SEE (VATICAN CITY STATE)",
         "Nicename": "Holy See (Vatican City State)",
         "ISO3": "VAT",
-        "Numcode": 336,
-        "Phonecode": 39
+        "Numcode": "336",
+        "Phonecode": 39,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 95,
@@ -866,8 +1056,10 @@
         "Name": "HONDURAS",
         "Nicename": "Honduras",
         "ISO3": "HND",
-        "Numcode": 340,
-        "Phonecode": 504
+        "Numcode": "340",
+        "Phonecode": 504,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 96,
@@ -875,8 +1067,10 @@
         "Name": "HONG KONG",
         "Nicename": "Hong Kong",
         "ISO3": "HKG",
-        "Numcode": 344,
-        "Phonecode": 852
+        "Numcode": "344",
+        "Phonecode": 852,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 97,
@@ -884,8 +1078,10 @@
         "Name": "HUNGARY",
         "Nicename": "Hungary",
         "ISO3": "HUN",
-        "Numcode": 348,
-        "Phonecode": 36
+        "Numcode": "348",
+        "Phonecode": 36,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 98,
@@ -893,8 +1089,10 @@
         "Name": "ICELAND",
         "Nicename": "Iceland",
         "ISO3": "ISL",
-        "Numcode": 352,
-        "Phonecode": 354
+        "Numcode": "352",
+        "Phonecode": 354,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 99,
@@ -902,8 +1100,10 @@
         "Name": "INDIA",
         "Nicename": "India",
         "ISO3": "IND",
-        "Numcode": 356,
-        "Phonecode": 91
+        "Numcode": "356",
+        "Phonecode": 91,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 100,
@@ -911,8 +1111,10 @@
         "Name": "INDONESIA",
         "Nicename": "Indonesia",
         "ISO3": "IDN",
-        "Numcode": 360,
-        "Phonecode": 62
+        "Numcode": "360",
+        "Phonecode": 62,
+        "MinLengthNum": 9,
+        "MaxLengthNum": 11
       },
       {
         "Id": 101,
@@ -920,8 +1122,10 @@
         "Name": "IRAN, ISLAMIC REPUBLIC OF",
         "Nicename": "Iran, Islamic Republic of",
         "ISO3": "IRN",
-        "Numcode": 364,
-        "Phonecode": 98
+        "Numcode": "364",
+        "Phonecode": 98,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 102,
@@ -929,8 +1133,10 @@
         "Name": "IRAQ",
         "Nicename": "Iraq",
         "ISO3": "IRQ",
-        "Numcode": 368,
-        "Phonecode": 964
+        "Numcode": "368",
+        "Phonecode": 964,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 103,
@@ -938,8 +1144,10 @@
         "Name": "IRELAND",
         "Nicename": "Ireland",
         "ISO3": "IRL",
-        "Numcode": 372,
-        "Phonecode": 353
+        "Numcode": "372",
+        "Phonecode": 353,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 104,
@@ -947,8 +1155,10 @@
         "Name": "ISRAEL",
         "Nicename": "Israel",
         "ISO3": "ISR",
-        "Numcode": 376,
-        "Phonecode": 972
+        "Numcode": "376",
+        "Phonecode": 972,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 105,
@@ -956,8 +1166,10 @@
         "Name": "ITALY",
         "Nicename": "Italy",
         "ISO3": "ITA",
-        "Numcode": 380,
-        "Phonecode": 39
+        "Numcode": "380",
+        "Phonecode": 39,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 106,
@@ -965,8 +1177,10 @@
         "Name": "JAMAICA",
         "Nicename": "Jamaica",
         "ISO3": "JAM",
-        "Numcode": 388,
-        "Phonecode": 1876
+        "Numcode": "388",
+        "Phonecode": 1876,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 107,
@@ -974,8 +1188,10 @@
         "Name": "JAPAN",
         "Nicename": "Japan",
         "ISO3": "JPN",
-        "Numcode": 392,
-        "Phonecode": 81
+        "Numcode": "392",
+        "Phonecode": 81,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 108,
@@ -983,8 +1199,10 @@
         "Name": "JORDAN",
         "Nicename": "Jordan",
         "ISO3": "JOR",
-        "Numcode": 400,
-        "Phonecode": 962
+        "Numcode": "400",
+        "Phonecode": 962,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 109,
@@ -992,8 +1210,10 @@
         "Name": "KAZAKHSTAN",
         "Nicename": "Kazakhstan",
         "ISO3": "KAZ",
-        "Numcode": 398,
-        "Phonecode": 7
+        "Numcode": "398",
+        "Phonecode": 7,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 110,
@@ -1001,8 +1221,10 @@
         "Name": "KENYA",
         "Nicename": "Kenya",
         "ISO3": "KEN",
-        "Numcode": 404,
-        "Phonecode": 254
+        "Numcode": "404",
+        "Phonecode": 254,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 111,
@@ -1010,8 +1232,10 @@
         "Name": "KIRIBATI",
         "Nicename": "Kiribati",
         "ISO3": "KIR",
-        "Numcode": 296,
-        "Phonecode": 686
+        "Numcode": "296",
+        "Phonecode": 686,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 112,
@@ -1019,8 +1243,10 @@
         "Name": "KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF",
         "Nicename": "Korea, Democratic People's Republic of",
         "ISO3": "PRK",
-        "Numcode": 408,
-        "Phonecode": 850
+        "Numcode": "408",
+        "Phonecode": 850,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 113,
@@ -1028,8 +1254,10 @@
         "Name": "KOREA, REPUBLIC OF",
         "Nicename": "Korea, Republic of",
         "ISO3": "KOR",
-        "Numcode": 410,
-        "Phonecode": 82
+        "Numcode": "410",
+        "Phonecode": 82,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 114,
@@ -1037,8 +1265,10 @@
         "Name": "KUWAIT",
         "Nicename": "Kuwait",
         "ISO3": "KWT",
-        "Numcode": 414,
-        "Phonecode": 965
+        "Numcode": "414",
+        "Phonecode": 965,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 115,
@@ -1046,8 +1276,10 @@
         "Name": "KYRGYZSTAN",
         "Nicename": "Kyrgyzstan",
         "ISO3": "KGZ",
-        "Numcode": 417,
-        "Phonecode": 996
+        "Numcode": "417",
+        "Phonecode": 996,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 116,
@@ -1055,8 +1287,10 @@
         "Name": "LAO PEOPLE'S DEMOCRATIC REPUBLIC",
         "Nicename": "Lao People's Democratic Republic",
         "ISO3": "LAO",
-        "Numcode": 418,
-        "Phonecode": 856
+        "Numcode": "418",
+        "Phonecode": 856,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 117,
@@ -1064,8 +1298,10 @@
         "Name": "LATVIA",
         "Nicename": "Latvia",
         "ISO3": "LVA",
-        "Numcode": 428,
-        "Phonecode": 371
+        "Numcode": "428",
+        "Phonecode": 371,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 118,
@@ -1073,8 +1309,10 @@
         "Name": "LEBANON",
         "Nicename": "Lebanon",
         "ISO3": "LBN",
-        "Numcode": 422,
-        "Phonecode": 961
+        "Numcode": "422",
+        "Phonecode": 961,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 119,
@@ -1082,8 +1320,10 @@
         "Name": "LESOTHO",
         "Nicename": "Lesotho",
         "ISO3": "LSO",
-        "Numcode": 426,
-        "Phonecode": 266
+        "Numcode": "426",
+        "Phonecode": 266,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 120,
@@ -1091,8 +1331,10 @@
         "Name": "LIBERIA",
         "Nicename": "Liberia",
         "ISO3": "LBR",
-        "Numcode": 430,
-        "Phonecode": 231
+        "Numcode": "430",
+        "Phonecode": 231,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 121,
@@ -1100,8 +1342,10 @@
         "Name": "LIBYAN ARAB JAMAHIRIYA",
         "Nicename": "Libyan Arab Jamahiriya",
         "ISO3": "LBY",
-        "Numcode": 434,
-        "Phonecode": 218
+        "Numcode": "434",
+        "Phonecode": 218,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 122,
@@ -1109,8 +1353,10 @@
         "Name": "LIECHTENSTEIN",
         "Nicename": "Liechtenstein",
         "ISO3": "LIE",
-        "Numcode": 438,
-        "Phonecode": 423
+        "Numcode": "438",
+        "Phonecode": 423,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 123,
@@ -1118,8 +1364,10 @@
         "Name": "LITHUANIA",
         "Nicename": "Lithuania",
         "ISO3": "LTU",
-        "Numcode": 440,
-        "Phonecode": 370
+        "Numcode": "440",
+        "Phonecode": 370,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 124,
@@ -1127,8 +1375,10 @@
         "Name": "LUXEMBOURG",
         "Nicename": "Luxembourg",
         "ISO3": "LUX",
-        "Numcode": 442,
-        "Phonecode": 352
+        "Numcode": "442",
+        "Phonecode": 352,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 125,
@@ -1136,8 +1386,10 @@
         "Name": "MACAO",
         "Nicename": "Macao",
         "ISO3": "MAC",
-        "Numcode": 446,
-        "Phonecode": 853
+        "Numcode": "446",
+        "Phonecode": 853,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 126,
@@ -1145,8 +1397,10 @@
         "Name": "MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF",
         "Nicename": "Macedonia, the Former Yugoslav Republic of",
         "ISO3": "MKD",
-        "Numcode": 807,
-        "Phonecode": 389
+        "Numcode": "807",
+        "Phonecode": 389,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 127,
@@ -1154,8 +1408,10 @@
         "Name": "MADAGASCAR",
         "Nicename": "Madagascar",
         "ISO3": "MDG",
-        "Numcode": 450,
-        "Phonecode": 261
+        "Numcode": "450",
+        "Phonecode": 261,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 128,
@@ -1163,8 +1419,10 @@
         "Name": "MALAWI",
         "Nicename": "Malawi",
         "ISO3": "MWI",
-        "Numcode": 454,
-        "Phonecode": 265
+        "Numcode": "454",
+        "Phonecode": 265,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 129,
@@ -1172,8 +1430,10 @@
         "Name": "MALAYSIA",
         "Nicename": "Malaysia",
         "ISO3": "MYS",
-        "Numcode": 458,
-        "Phonecode": 60
+        "Numcode": "458",
+        "Phonecode": 60,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 130,
@@ -1181,8 +1441,10 @@
         "Name": "MALDIVES",
         "Nicename": "Maldives",
         "ISO3": "MDV",
-        "Numcode": 462,
-        "Phonecode": 960
+        "Numcode": "462",
+        "Phonecode": 960,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 131,
@@ -1190,8 +1452,10 @@
         "Name": "MALI",
         "Nicename": "Mali",
         "ISO3": "MLI",
-        "Numcode": 466,
-        "Phonecode": 223
+        "Numcode": "466",
+        "Phonecode": 223,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 132,
@@ -1199,8 +1463,10 @@
         "Name": "MALTA",
         "Nicename": "Malta",
         "ISO3": "MLT",
-        "Numcode": 470,
-        "Phonecode": 356
+        "Numcode": "470",
+        "Phonecode": 356,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 133,
@@ -1208,8 +1474,10 @@
         "Name": "MARSHALL ISLANDS",
         "Nicename": "Marshall Islands",
         "ISO3": "MHL",
-        "Numcode": 584,
-        "Phonecode": 692
+        "Numcode": "584",
+        "Phonecode": 692,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 134,
@@ -1217,8 +1485,10 @@
         "Name": "MARTINIQUE",
         "Nicename": "Martinique",
         "ISO3": "MTQ",
-        "Numcode": 474,
-        "Phonecode": 596
+        "Numcode": "474",
+        "Phonecode": 596,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 135,
@@ -1226,8 +1496,10 @@
         "Name": "MAURITANIA",
         "Nicename": "Mauritania",
         "ISO3": "MRT",
-        "Numcode": 478,
-        "Phonecode": 222
+        "Numcode": "478",
+        "Phonecode": 222,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 136,
@@ -1235,8 +1507,10 @@
         "Name": "MAURITIUS",
         "Nicename": "Mauritius",
         "ISO3": "MUS",
-        "Numcode": 480,
-        "Phonecode": 230
+        "Numcode": "480",
+        "Phonecode": 230,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 137,
@@ -1245,7 +1519,9 @@
         "Nicename": "Mayotte",
         "ISO3": null,
         "Numcode": null,
-        "Phonecode": 269
+        "Phonecode": 269,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 138,
@@ -1253,8 +1529,10 @@
         "Name": "MEXICO",
         "Nicename": "Mexico",
         "ISO3": "MEX",
-        "Numcode": 484,
-        "Phonecode": 52
+        "Numcode": "484",
+        "Phonecode": 52,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 139,
@@ -1262,8 +1540,10 @@
         "Name": "MICRONESIA, FEDERATED STATES OF",
         "Nicename": "Micronesia, Federated States of",
         "ISO3": "FSM",
-        "Numcode": 583,
-        "Phonecode": 691
+        "Numcode": "583",
+        "Phonecode": 691,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 140,
@@ -1271,8 +1551,10 @@
         "Name": "MOLDOVA, REPUBLIC OF",
         "Nicename": "Moldova, Republic of",
         "ISO3": "MDA",
-        "Numcode": 498,
-        "Phonecode": 373
+        "Numcode": "498",
+        "Phonecode": 373,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 141,
@@ -1280,8 +1562,10 @@
         "Name": "MONACO",
         "Nicename": "Monaco",
         "ISO3": "MCO",
-        "Numcode": 492,
-        "Phonecode": 377
+        "Numcode": "492",
+        "Phonecode": 377,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 142,
@@ -1289,8 +1573,10 @@
         "Name": "MONGOLIA",
         "Nicename": "Mongolia",
         "ISO3": "MNG",
-        "Numcode": 496,
-        "Phonecode": 976
+        "Numcode": "496",
+        "Phonecode": 976,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 143,
@@ -1298,8 +1584,10 @@
         "Name": "MONTSERRAT",
         "Nicename": "Montserrat",
         "ISO3": "MSR",
-        "Numcode": 500,
-        "Phonecode": 1664
+        "Numcode": "500",
+        "Phonecode": 1664,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 144,
@@ -1307,8 +1595,10 @@
         "Name": "MOROCCO",
         "Nicename": "Morocco",
         "ISO3": "MAR",
-        "Numcode": 504,
-        "Phonecode": 212
+        "Numcode": "504",
+        "Phonecode": 212,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 145,
@@ -1316,8 +1606,10 @@
         "Name": "MOZAMBIQUE",
         "Nicename": "Mozambique",
         "ISO3": "MOZ",
-        "Numcode": 508,
-        "Phonecode": 258
+        "Numcode": "508",
+        "Phonecode": 258,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 146,
@@ -1325,8 +1617,10 @@
         "Name": "MYANMAR",
         "Nicename": "Myanmar",
         "ISO3": "MMR",
-        "Numcode": 104,
-        "Phonecode": 95
+        "Numcode": "104",
+        "Phonecode": 95,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 147,
@@ -1334,8 +1628,10 @@
         "Name": "NAMIBIA",
         "Nicename": "Namibia",
         "ISO3": "NAM",
-        "Numcode": 516,
-        "Phonecode": 264
+        "Numcode": "516",
+        "Phonecode": 264,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 148,
@@ -1343,8 +1639,10 @@
         "Name": "NAURU",
         "Nicename": "Nauru",
         "ISO3": "NRU",
-        "Numcode": 520,
-        "Phonecode": 674
+        "Numcode": "520",
+        "Phonecode": 674,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 149,
@@ -1352,8 +1650,10 @@
         "Name": "NEPAL",
         "Nicename": "Nepal",
         "ISO3": "NPL",
-        "Numcode": 524,
-        "Phonecode": 977
+        "Numcode": "524",
+        "Phonecode": 977,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 150,
@@ -1361,8 +1661,10 @@
         "Name": "NETHERLANDS",
         "Nicename": "Netherlands",
         "ISO3": "NLD",
-        "Numcode": 528,
-        "Phonecode": 31
+        "Numcode": "528",
+        "Phonecode": 31,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 151,
@@ -1370,8 +1672,10 @@
         "Name": "NETHERLANDS ANTILLES",
         "Nicename": "Netherlands Antilles",
         "ISO3": "ANT",
-        "Numcode": 530,
-        "Phonecode": 599
+        "Numcode": "530",
+        "Phonecode": 599,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 152,
@@ -1379,8 +1683,10 @@
         "Name": "NEW CALEDONIA",
         "Nicename": "New Caledonia",
         "ISO3": "NCL",
-        "Numcode": 540,
-        "Phonecode": 687
+        "Numcode": "540",
+        "Phonecode": 687,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 153,
@@ -1388,8 +1694,10 @@
         "Name": "NEW ZEALAND",
         "Nicename": "New Zealand",
         "ISO3": "NZL",
-        "Numcode": 554,
-        "Phonecode": 64
+        "Numcode": "554",
+        "Phonecode": 64,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 154,
@@ -1397,8 +1705,10 @@
         "Name": "NICARAGUA",
         "Nicename": "Nicaragua",
         "ISO3": "NIC",
-        "Numcode": 558,
-        "Phonecode": 505
+        "Numcode": "558",
+        "Phonecode": 505,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 155,
@@ -1406,8 +1716,10 @@
         "Name": "NIGER",
         "Nicename": "Niger",
         "ISO3": "NER",
-        "Numcode": 562,
-        "Phonecode": 227
+        "Numcode": "562",
+        "Phonecode": 227,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 156,
@@ -1415,8 +1727,10 @@
         "Name": "NIGERIA",
         "Nicename": "Nigeria",
         "ISO3": "NGA",
-        "Numcode": 566,
-        "Phonecode": 234
+        "Numcode": "566",
+        "Phonecode": 234,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 157,
@@ -1424,8 +1738,10 @@
         "Name": "NIUE",
         "Nicename": "Niue",
         "ISO3": "NIU",
-        "Numcode": 570,
-        "Phonecode": 683
+        "Numcode": "570",
+        "Phonecode": 683,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 158,
@@ -1433,8 +1749,10 @@
         "Name": "NORFOLK ISLAND",
         "Nicename": "Norfolk Island",
         "ISO3": "NFK",
-        "Numcode": 574,
-        "Phonecode": 672
+        "Numcode": "574",
+        "Phonecode": 672,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 159,
@@ -1442,8 +1760,10 @@
         "Name": "NORTHERN MARIANA ISLANDS",
         "Nicename": "Northern Mariana Islands",
         "ISO3": "MNP",
-        "Numcode": 580,
-        "Phonecode": 1670
+        "Numcode": "580",
+        "Phonecode": 1670,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 160,
@@ -1451,8 +1771,10 @@
         "Name": "NORWAY",
         "Nicename": "Norway",
         "ISO3": "NOR",
-        "Numcode": 578,
-        "Phonecode": 47
+        "Numcode": "578",
+        "Phonecode": 47,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 161,
@@ -1460,8 +1782,10 @@
         "Name": "OMAN",
         "Nicename": "Oman",
         "ISO3": "OMN",
-        "Numcode": 512,
-        "Phonecode": 968
+        "Numcode": "512",
+        "Phonecode": 968,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 162,
@@ -1469,8 +1793,10 @@
         "Name": "PAKISTAN",
         "Nicename": "Pakistan",
         "ISO3": "PAK",
-        "Numcode": 586,
-        "Phonecode": 92
+        "Numcode": "586",
+        "Phonecode": 92,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 163,
@@ -1478,8 +1804,10 @@
         "Name": "PALAU",
         "Nicename": "Palau",
         "ISO3": "PLW",
-        "Numcode": 585,
-        "Phonecode": 680
+        "Numcode": "585",
+        "Phonecode": 680,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 164,
@@ -1488,7 +1816,9 @@
         "Nicename": "Palestinian Territory, Occupied",
         "ISO3": null,
         "Numcode": null,
-        "Phonecode": 970
+        "Phonecode": 970,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 165,
@@ -1496,8 +1826,10 @@
         "Name": "PANAMA",
         "Nicename": "Panama",
         "ISO3": "PAN",
-        "Numcode": 591,
-        "Phonecode": 507
+        "Numcode": "591",
+        "Phonecode": 507,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 166,
@@ -1505,8 +1837,10 @@
         "Name": "PAPUA NEW GUINEA",
         "Nicename": "Papua New Guinea",
         "ISO3": "PNG",
-        "Numcode": 598,
-        "Phonecode": 675
+        "Numcode": "598",
+        "Phonecode": 675,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 167,
@@ -1514,8 +1848,10 @@
         "Name": "PARAGUAY",
         "Nicename": "Paraguay",
         "ISO3": "PRY",
-        "Numcode": 600,
-        "Phonecode": 595
+        "Numcode": "600",
+        "Phonecode": 595,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 168,
@@ -1523,8 +1859,10 @@
         "Name": "PERU",
         "Nicename": "Peru",
         "ISO3": "PER",
-        "Numcode": 604,
-        "Phonecode": 51
+        "Numcode": "604",
+        "Phonecode": 51,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 169,
@@ -1532,8 +1870,10 @@
         "Name": "PHILIPPINES",
         "Nicename": "Philippines",
         "ISO3": "PHL",
-        "Numcode": 608,
-        "Phonecode": 63
+        "Numcode": "608",
+        "Phonecode": 63,
+        "MinLengthNum": 8,
+        "MaxLengthNum": 10
       },
       {
         "Id": 170,
@@ -1541,8 +1881,10 @@
         "Name": "PITCAIRN",
         "Nicename": "Pitcairn",
         "ISO3": "PCN",
-        "Numcode": 612,
-        "Phonecode": 64
+        "Numcode": "612",
+        "Phonecode": 64,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 171,
@@ -1550,8 +1892,10 @@
         "Name": "POLAND",
         "Nicename": "Poland",
         "ISO3": "POL",
-        "Numcode": 616,
-        "Phonecode": 48
+        "Numcode": "616",
+        "Phonecode": 48,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 172,
@@ -1559,8 +1903,10 @@
         "Name": "PORTUGAL",
         "Nicename": "Portugal",
         "ISO3": "PRT",
-        "Numcode": 620,
-        "Phonecode": 351
+        "Numcode": "620",
+        "Phonecode": 351,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 173,
@@ -1568,8 +1914,10 @@
         "Name": "PUERTO RICO",
         "Nicename": "Puerto Rico",
         "ISO3": "PRI",
-        "Numcode": 630,
-        "Phonecode": 1787
+        "Numcode": "630",
+        "Phonecode": 1787,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 174,
@@ -1577,8 +1925,10 @@
         "Name": "QATAR",
         "Nicename": "Qatar",
         "ISO3": "QAT",
-        "Numcode": 634,
-        "Phonecode": 974
+        "Numcode": "634",
+        "Phonecode": 974,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 175,
@@ -1586,8 +1936,10 @@
         "Name": "REUNION",
         "Nicename": "Reunion",
         "ISO3": "REU",
-        "Numcode": 638,
-        "Phonecode": 262
+        "Numcode": "638",
+        "Phonecode": 262,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 176,
@@ -1595,8 +1947,10 @@
         "Name": "ROMANIA",
         "Nicename": "Romania",
         "ISO3": "ROM",
-        "Numcode": 642,
-        "Phonecode": 40
+        "Numcode": "642",
+        "Phonecode": 40,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 177,
@@ -1604,8 +1958,10 @@
         "Name": "RUSSIAN FEDERATION",
         "Nicename": "Russian Federation",
         "ISO3": "RUS",
-        "Numcode": 643,
-        "Phonecode": 70
+        "Numcode": "643",
+        "Phonecode": 70,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 178,
@@ -1613,8 +1969,10 @@
         "Name": "RWANDA",
         "Nicename": "Rwanda",
         "ISO3": "RWA",
-        "Numcode": 646,
-        "Phonecode": 250
+        "Numcode": "646",
+        "Phonecode": 250,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 179,
@@ -1622,8 +1980,10 @@
         "Name": "SAINT HELENA",
         "Nicename": "Saint Helena",
         "ISO3": "SHN",
-        "Numcode": 654,
-        "Phonecode": 290
+        "Numcode": "654",
+        "Phonecode": 290,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 180,
@@ -1631,8 +1991,10 @@
         "Name": "SAINT KITTS AND NEVIS",
         "Nicename": "Saint Kitts and Nevis",
         "ISO3": "KNA",
-        "Numcode": 659,
-        "Phonecode": 1869
+        "Numcode": "659",
+        "Phonecode": 1869,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 181,
@@ -1640,8 +2002,10 @@
         "Name": "SAINT LUCIA",
         "Nicename": "Saint Lucia",
         "ISO3": "LCA",
-        "Numcode": 662,
-        "Phonecode": 1758
+        "Numcode": "662",
+        "Phonecode": 1758,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 182,
@@ -1649,8 +2013,10 @@
         "Name": "SAINT PIERRE AND MIQUELON",
         "Nicename": "Saint Pierre and Miquelon",
         "ISO3": "SPM",
-        "Numcode": 666,
-        "Phonecode": 508
+        "Numcode": "666",
+        "Phonecode": 508,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 183,
@@ -1658,8 +2024,10 @@
         "Name": "SAINT VINCENT AND THE GRENADINES",
         "Nicename": "Saint Vincent and the Grenadines",
         "ISO3": "VCT",
-        "Numcode": 670,
-        "Phonecode": 1784
+        "Numcode": "670",
+        "Phonecode": 1784,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 184,
@@ -1667,8 +2035,10 @@
         "Name": "SAMOA",
         "Nicename": "Samoa",
         "ISO3": "WSM",
-        "Numcode": 882,
-        "Phonecode": 684
+        "Numcode": "882",
+        "Phonecode": 684,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 185,
@@ -1676,8 +2046,10 @@
         "Name": "SAN MARINO",
         "Nicename": "San Marino",
         "ISO3": "SMR",
-        "Numcode": 674,
-        "Phonecode": 378
+        "Numcode": "674",
+        "Phonecode": 378,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 186,
@@ -1685,8 +2057,10 @@
         "Name": "SAO TOME AND PRINCIPE",
         "Nicename": "Sao Tome and Principe",
         "ISO3": "STP",
-        "Numcode": 678,
-        "Phonecode": 239
+        "Numcode": "678",
+        "Phonecode": 239,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 187,
@@ -1694,8 +2068,10 @@
         "Name": "SAUDI ARABIA",
         "Nicename": "Saudi Arabia",
         "ISO3": "SAU",
-        "Numcode": 682,
-        "Phonecode": 966
+        "Numcode": "682",
+        "Phonecode": 966,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 188,
@@ -1703,8 +2079,10 @@
         "Name": "SENEGAL",
         "Nicename": "Senegal",
         "ISO3": "SEN",
-        "Numcode": 686,
-        "Phonecode": 221
+        "Numcode": "686",
+        "Phonecode": 221,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 189,
@@ -1713,7 +2091,9 @@
         "Nicename": "Serbia and Montenegro",
         "ISO3": null,
         "Numcode": null,
-        "Phonecode": 381
+        "Phonecode": 381,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 190,
@@ -1721,8 +2101,10 @@
         "Name": "SEYCHELLES",
         "Nicename": "Seychelles",
         "ISO3": "SYC",
-        "Numcode": 690,
-        "Phonecode": 248
+        "Numcode": "690",
+        "Phonecode": 248,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 191,
@@ -1730,8 +2112,10 @@
         "Name": "SIERRA LEONE",
         "Nicename": "Sierra Leone",
         "ISO3": "SLE",
-        "Numcode": 694,
-        "Phonecode": 232
+        "Numcode": "694",
+        "Phonecode": 232,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 192,
@@ -1739,8 +2123,10 @@
         "Name": "SINGAPORE",
         "Nicename": "Singapore",
         "ISO3": "SGP",
-        "Numcode": 702,
-        "Phonecode": 65
+        "Numcode": "702",
+        "Phonecode": 65,
+        "MinLengthNum": 8,
+        "MaxLengthNum": 8
       },
       {
         "Id": 193,
@@ -1748,8 +2134,10 @@
         "Name": "SLOVAKIA",
         "Nicename": "Slovakia",
         "ISO3": "SVK",
-        "Numcode": 703,
-        "Phonecode": 421
+        "Numcode": "703",
+        "Phonecode": 421,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 194,
@@ -1757,8 +2145,10 @@
         "Name": "SLOVENIA",
         "Nicename": "Slovenia",
         "ISO3": "SVN",
-        "Numcode": 705,
-        "Phonecode": 386
+        "Numcode": "705",
+        "Phonecode": 386,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 195,
@@ -1766,8 +2156,10 @@
         "Name": "SOLOMON ISLANDS",
         "Nicename": "Solomon Islands",
         "ISO3": "SLB",
-        "Numcode": 90,
-        "Phonecode": 677
+        "Numcode": "90",
+        "Phonecode": 677,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 196,
@@ -1775,8 +2167,10 @@
         "Name": "SOMALIA",
         "Nicename": "Somalia",
         "ISO3": "SOM",
-        "Numcode": 706,
-        "Phonecode": 252
+        "Numcode": "706",
+        "Phonecode": 252,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 197,
@@ -1784,8 +2178,10 @@
         "Name": "SOUTH AFRICA",
         "Nicename": "South Africa",
         "ISO3": "ZAF",
-        "Numcode": 710,
-        "Phonecode": 27
+        "Numcode": "710",
+        "Phonecode": 27,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 198,
@@ -1794,7 +2190,9 @@
         "Nicename": "South Georgia and the South Sandwich Islands",
         "ISO3": null,
         "Numcode": null,
-        "Phonecode": 995
+        "Phonecode": 995,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 199,
@@ -1802,8 +2200,10 @@
         "Name": "SPAIN",
         "Nicename": "Spain",
         "ISO3": "ESP",
-        "Numcode": 724,
-        "Phonecode": 34
+        "Numcode": "724",
+        "Phonecode": 34,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 200,
@@ -1811,8 +2211,10 @@
         "Name": "SRI LANKA",
         "Nicename": "Sri Lanka",
         "ISO3": "LKA",
-        "Numcode": 144,
-        "Phonecode": 94
+        "Numcode": "144",
+        "Phonecode": 94,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 201,
@@ -1820,8 +2222,10 @@
         "Name": "SUDAN",
         "Nicename": "Sudan",
         "ISO3": "SDN",
-        "Numcode": 736,
-        "Phonecode": 249
+        "Numcode": "736",
+        "Phonecode": 249,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 202,
@@ -1829,8 +2233,10 @@
         "Name": "SURINAME",
         "Nicename": "Suriname",
         "ISO3": "SUR",
-        "Numcode": 740,
-        "Phonecode": 597
+        "Numcode": "740",
+        "Phonecode": 597,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 203,
@@ -1838,8 +2244,10 @@
         "Name": "SVALBARD AND JAN MAYEN",
         "Nicename": "Svalbard and Jan Mayen",
         "ISO3": "SJM",
-        "Numcode": 744,
-        "Phonecode": 47
+        "Numcode": "744",
+        "Phonecode": 47,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 204,
@@ -1847,8 +2255,10 @@
         "Name": "SWAZILAND",
         "Nicename": "Swaziland",
         "ISO3": "SWZ",
-        "Numcode": 748,
-        "Phonecode": 268
+        "Numcode": "748",
+        "Phonecode": 268,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 205,
@@ -1856,8 +2266,10 @@
         "Name": "SWEDEN",
         "Nicename": "Sweden",
         "ISO3": "SWE",
-        "Numcode": 752,
-        "Phonecode": 46
+        "Numcode": "752",
+        "Phonecode": 46,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 206,
@@ -1865,8 +2277,10 @@
         "Name": "SWITZERLAND",
         "Nicename": "Switzerland",
         "ISO3": "CHE",
-        "Numcode": 756,
-        "Phonecode": 41
+        "Numcode": "756",
+        "Phonecode": 41,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 207,
@@ -1874,8 +2288,10 @@
         "Name": "SYRIAN ARAB REPUBLIC",
         "Nicename": "Syrian Arab Republic",
         "ISO3": "SYR",
-        "Numcode": 760,
-        "Phonecode": 963
+        "Numcode": "760",
+        "Phonecode": 963,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 208,
@@ -1883,8 +2299,10 @@
         "Name": "TAIWAN, PROVINCE OF CHINA",
         "Nicename": "Taiwan, Province of China",
         "ISO3": "TWN",
-        "Numcode": 158,
-        "Phonecode": 886
+        "Numcode": "158",
+        "Phonecode": 886,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 209,
@@ -1892,8 +2310,10 @@
         "Name": "TAJIKISTAN",
         "Nicename": "Tajikistan",
         "ISO3": "TJK",
-        "Numcode": 762,
-        "Phonecode": 992
+        "Numcode": "762",
+        "Phonecode": 992,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 210,
@@ -1901,8 +2321,10 @@
         "Name": "TANZANIA, UNITED REPUBLIC OF",
         "Nicename": "Tanzania, United Republic of",
         "ISO3": "TZA",
-        "Numcode": 834,
-        "Phonecode": 255
+        "Numcode": "834",
+        "Phonecode": 255,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 211,
@@ -1910,8 +2332,10 @@
         "Name": "THAILAND",
         "Nicename": "Thailand",
         "ISO3": "THA",
-        "Numcode": 764,
-        "Phonecode": 66
+        "Numcode": "764",
+        "Phonecode": 66,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 212,
@@ -1920,7 +2344,9 @@
         "Nicename": "Timor-Leste",
         "ISO3": null,
         "Numcode": null,
-        "Phonecode": 670
+        "Phonecode": 670,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 213,
@@ -1928,8 +2354,10 @@
         "Name": "TOGO",
         "Nicename": "Togo",
         "ISO3": "TGO",
-        "Numcode": 768,
-        "Phonecode": 228
+        "Numcode": "768",
+        "Phonecode": 228,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 214,
@@ -1937,8 +2365,10 @@
         "Name": "TOKELAU",
         "Nicename": "Tokelau",
         "ISO3": "TKL",
-        "Numcode": 772,
-        "Phonecode": 690
+        "Numcode": "772",
+        "Phonecode": 690,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 215,
@@ -1946,8 +2376,10 @@
         "Name": "TONGA",
         "Nicename": "Tonga",
         "ISO3": "TON",
-        "Numcode": 776,
-        "Phonecode": 676
+        "Numcode": "776",
+        "Phonecode": 676,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 216,
@@ -1955,8 +2387,10 @@
         "Name": "TRINIDAD AND TOBAGO",
         "Nicename": "Trinidad and Tobago",
         "ISO3": "TTO",
-        "Numcode": 780,
-        "Phonecode": 1868
+        "Numcode": "780",
+        "Phonecode": 1868,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 217,
@@ -1964,8 +2398,10 @@
         "Name": "TUNISIA",
         "Nicename": "Tunisia",
         "ISO3": "TUN",
-        "Numcode": 788,
-        "Phonecode": 216
+        "Numcode": "788",
+        "Phonecode": 216,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 218,
@@ -1973,8 +2409,10 @@
         "Name": "TURKEY",
         "Nicename": "Turkey",
         "ISO3": "TUR",
-        "Numcode": 792,
-        "Phonecode": 90
+        "Numcode": "792",
+        "Phonecode": 90,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 219,
@@ -1982,8 +2420,10 @@
         "Name": "TURKMENISTAN",
         "Nicename": "Turkmenistan",
         "ISO3": "TKM",
-        "Numcode": 795,
-        "Phonecode": 7370
+        "Numcode": "795",
+        "Phonecode": 7370,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 220,
@@ -1991,8 +2431,10 @@
         "Name": "TURKS AND CAICOS ISLANDS",
         "Nicename": "Turks and Caicos Islands",
         "ISO3": "TCA",
-        "Numcode": 796,
-        "Phonecode": 1649
+        "Numcode": "796",
+        "Phonecode": 1649,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 221,
@@ -2000,8 +2442,10 @@
         "Name": "TUVALU",
         "Nicename": "Tuvalu",
         "ISO3": "TUV",
-        "Numcode": 798,
-        "Phonecode": 688
+        "Numcode": "798",
+        "Phonecode": 688,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 222,
@@ -2009,8 +2453,10 @@
         "Name": "UGANDA",
         "Nicename": "Uganda",
         "ISO3": "UGA",
-        "Numcode": 800,
-        "Phonecode": 256
+        "Numcode": "800",
+        "Phonecode": 256,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 223,
@@ -2018,8 +2464,10 @@
         "Name": "UKRAINE",
         "Nicename": "Ukraine",
         "ISO3": "UKR",
-        "Numcode": 804,
-        "Phonecode": 380
+        "Numcode": "804",
+        "Phonecode": 380,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 224,
@@ -2027,8 +2475,10 @@
         "Name": "UNITED ARAB EMIRATES",
         "Nicename": "United Arab Emirates",
         "ISO3": "ARE",
-        "Numcode": 784,
-        "Phonecode": 971
+        "Numcode": "784",
+        "Phonecode": 971,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 225,
@@ -2036,8 +2486,10 @@
         "Name": "UNITED KINGDOM",
         "Nicename": "United Kingdom",
         "ISO3": "GBR",
-        "Numcode": 826,
-        "Phonecode": 44
+        "Numcode": "826",
+        "Phonecode": 44,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 227,
@@ -2046,7 +2498,9 @@
         "Nicename": "United States Minor Outlying Islands",
         "ISO3": null,
         "Numcode": null,
-        "Phonecode": 1
+        "Phonecode": 1,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 228,
@@ -2054,8 +2508,10 @@
         "Name": "URUGUAY",
         "Nicename": "Uruguay",
         "ISO3": "URY",
-        "Numcode": 858,
-        "Phonecode": 598
+        "Numcode": "858",
+        "Phonecode": 598,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 229,
@@ -2063,8 +2519,10 @@
         "Name": "UZBEKISTAN",
         "Nicename": "Uzbekistan",
         "ISO3": "UZB",
-        "Numcode": 860,
-        "Phonecode": 998
+        "Numcode": "860",
+        "Phonecode": 998,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 230,
@@ -2072,8 +2530,10 @@
         "Name": "VANUATU",
         "Nicename": "Vanuatu",
         "ISO3": "VUT",
-        "Numcode": 548,
-        "Phonecode": 678
+        "Numcode": "548",
+        "Phonecode": 678,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 231,
@@ -2081,8 +2541,10 @@
         "Name": "VENEZUELA",
         "Nicename": "Venezuela",
         "ISO3": "VEN",
-        "Numcode": 862,
-        "Phonecode": 58
+        "Numcode": "862",
+        "Phonecode": 58,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 232,
@@ -2090,8 +2552,10 @@
         "Name": "VIET NAM",
         "Nicename": "Viet Nam",
         "ISO3": "VNM",
-        "Numcode": 704,
-        "Phonecode": 84
+        "Numcode": "704",
+        "Phonecode": 84,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 233,
@@ -2099,8 +2563,10 @@
         "Name": "VIRGIN ISLANDS, BRITISH",
         "Nicename": "Virgin Islands, British",
         "ISO3": "VGB",
-        "Numcode": 92,
-        "Phonecode": 1284
+        "Numcode": "92",
+        "Phonecode": 1284,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 234,
@@ -2108,8 +2574,10 @@
         "Name": "VIRGIN ISLANDS, U.S.",
         "Nicename": "Virgin Islands, U.s.",
         "ISO3": "VIR",
-        "Numcode": 850,
-        "Phonecode": 1340
+        "Numcode": "850",
+        "Phonecode": 1340,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 235,
@@ -2117,8 +2585,10 @@
         "Name": "WALLIS AND FUTUNA",
         "Nicename": "Wallis and Futuna",
         "ISO3": "WLF",
-        "Numcode": 876,
-        "Phonecode": 681
+        "Numcode": "876",
+        "Phonecode": 681,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 236,
@@ -2126,8 +2596,10 @@
         "Name": "WESTERN SAHARA",
         "Nicename": "Western Sahara",
         "ISO3": "ESH",
-        "Numcode": 732,
-        "Phonecode": 212
+        "Numcode": "732",
+        "Phonecode": 212,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 237,
@@ -2135,8 +2607,10 @@
         "Name": "YEMEN",
         "Nicename": "Yemen",
         "ISO3": "YEM",
-        "Numcode": 887,
-        "Phonecode": 967
+        "Numcode": "887",
+        "Phonecode": 967,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 238,
@@ -2144,8 +2618,10 @@
         "Name": "ZAMBIA",
         "Nicename": "Zambia",
         "ISO3": "ZMB",
-        "Numcode": 894,
-        "Phonecode": 260
+        "Numcode": "894",
+        "Phonecode": 260,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 239,
@@ -2153,8 +2629,10 @@
         "Name": "ZIMBABWE",
         "Nicename": "Zimbabwe",
         "ISO3": "ZWE",
-        "Numcode": 716,
-        "Phonecode": 263
+        "Numcode": "716",
+        "Phonecode": 263,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 240,
@@ -2162,8 +2640,10 @@
         "Name": "DOMINICAN REPUBLIC",
         "Nicename": "Dominican Republic",
         "ISO3": "DOM",
-        "Numcode": 214,
-        "Phonecode": 1829
+        "Numcode": "214",
+        "Phonecode": 1829,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 241,
@@ -2171,8 +2651,10 @@
         "Name": "DOMINICAN REPUBLIC",
         "Nicename": "Dominican Republic",
         "ISO3": "DOM",
-        "Numcode": 214,
-        "Phonecode": 1849
+        "Numcode": "214",
+        "Phonecode": 1849,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       },
       {
         "Id": 242,
@@ -2180,8 +2662,10 @@
         "Name": "PUERTO RICO",
         "Nicename": "Puerto Rico",
         "ISO3": "PRI",
-        "Numcode": 630,
-        "Phonecode": 1939
+        "Numcode": "630",
+        "Phonecode": 1939,
+        "MinLengthNum": 10,
+        "MaxLengthNum": 10
       }
     ]
   }
